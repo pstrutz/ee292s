@@ -78,11 +78,20 @@ def plot_allan_deviation(tau_values_list, allan_devs_list, labels, title):
     plt.title(title)
     plt.legend()
     plt.grid(True)
-    
+
+def plot_single_allan_deviation(tau_values, allan_devs, label, title):
+    """Plots Allan deviation for a single signal."""
+    plt.figure(figsize=(10, 6))
+    plt.loglog(tau_values, allan_devs, label=label)
+    plt.xlabel('Tau (s)')
+    plt.ylabel('Allan Deviation')
+    plt.title(title)
+    plt.legend()
+    plt.grid(True)
 
 def main():
     # Load data from the file
-    file_path = '/Users/patriciastrutz/Library/CloudStorage/OneDrive-Stanford/Stanford/24-25a Fall/EE292S/Lab1/test.txt'  # Path to your sensor data file
+    file_path = '/Users/patriciastrutz/Library/CloudStorage/OneDrive-Stanford/Stanford/24-25a Fall/EE292S/ee292s/lab1/30min_stationary_xy_26C_indoors.txt'  # Path to your sensor data file
     time, accel_data, gyro_data, filtered_tilt = parse_sensor_data(file_path)
 
     # Process accelerometer data (roll, pitch, yaw)
@@ -103,23 +112,21 @@ def main():
         gyro_tau_values.append(tau)
         gyro_allan_devs.append(allan_dev)
 
+
     # Process tilt data (acce tilt, gyro tilt, filtered tilt)
     tilt_labels = ['Accel Tilt', 'Gyro Tilt', 'Filtered Tilt']
-    tilt_tau_values = []
-    tilt_allan_devs = []
-    for tilt_data in [accel_data['tilt'], gyro_data['tilt'], filtered_tilt]:
-        tau, allan_dev = allan_deviation(tilt_data)
-        tilt_tau_values.append(tau)
-        tilt_allan_devs.append(allan_dev)
+    tilt_data_list = [accel_data['tilt'], gyro_data['tilt'], filtered_tilt]
 
     # Plot accelerometer Allan deviations
     plot_allan_deviation(accel_tau_values, accel_allan_devs, accel_labels, 'Allan Deviation - Accelerometer')
 
     # Plot gyroscope Allan deviations
     plot_allan_deviation(gyro_tau_values, gyro_allan_devs, gyro_labels, 'Allan Deviation - Gyroscope')
-
-    # Plot tilt Allan deviations
-    plot_allan_deviation(tilt_tau_values, tilt_allan_devs, tilt_labels, 'Allan Deviation - Tilt')
+    
+    # Plot Allan deviations for each tilt component separately
+    for tilt_data, label in zip(tilt_data_list, tilt_labels):
+        tau_values, allan_devs = allan_deviation(tilt_data)
+        plot_single_allan_deviation(tau_values, allan_devs, label, f'Allan Deviation - {label}')
 
     plt.show()
 
