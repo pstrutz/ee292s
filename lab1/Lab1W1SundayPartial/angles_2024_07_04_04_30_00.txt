@@ -1,0 +1,3136 @@
+time: 0.00
+acce: (1.78, 0.18, -95.72)
+gyro: (0.00, -0.00, 0.01)
+filtered: (1.78, 0.18, 0.01)
+acce tilt: 1.78
+gyro tilt: 0.00
+filtered tilt: 1.78
+
+time: 0.10
+acce: (1.64, 0.16, -95.53)
+gyro: (0.01, -0.00, 0.01)
+filtered: (1.64, 0.16, 0.01)
+acce tilt: 1.65
+gyro tilt: 0.01
+filtered tilt: 1.65
+
+time: 0.20
+acce: (1.56, 0.09, -93.44)
+gyro: (0.01, 0.00, 0.02)
+filtered: (1.56, 0.09, 0.02)
+acce tilt: 1.56
+gyro tilt: 0.01
+filtered tilt: 1.56
+
+time: 0.30
+acce: (1.61, 0.14, -94.92)
+gyro: (0.02, 0.01, 0.02)
+filtered: (1.61, 0.14, 0.02)
+acce tilt: 1.62
+gyro tilt: 0.02
+filtered tilt: 1.62
+
+time: 0.40
+acce: (1.61, 0.16, -95.76)
+gyro: (0.02, 0.01, 0.02)
+filtered: (1.61, 0.16, 0.02)
+acce tilt: 1.62
+gyro tilt: 0.02
+filtered tilt: 1.62
+
+time: 0.50
+acce: (1.60, 0.15, -95.19)
+gyro: (0.02, 0.01, 0.02)
+filtered: (1.60, 0.15, 0.02)
+acce tilt: 1.61
+gyro tilt: 0.02
+filtered tilt: 1.61
+
+time: 0.60
+acce: (1.64, 0.16, -95.66)
+gyro: (0.02, 0.02, 0.02)
+filtered: (1.64, 0.16, 0.02)
+acce tilt: 1.65
+gyro tilt: 0.03
+filtered tilt: 1.65
+
+time: 0.70
+acce: (1.69, 0.18, -96.20)
+gyro: (0.03, 0.02, 0.02)
+filtered: (1.69, 0.18, 0.02)
+acce tilt: 1.70
+gyro tilt: 0.03
+filtered tilt: 1.70
+
+time: 0.80
+acce: (1.71, 0.19, -96.24)
+gyro: (0.03, 0.02, 0.02)
+filtered: (1.71, 0.19, 0.02)
+acce tilt: 1.72
+gyro tilt: 0.04
+filtered tilt: 1.72
+
+time: 0.90
+acce: (1.69, 0.18, -96.19)
+gyro: (0.04, 0.02, 0.02)
+filtered: (1.69, 0.18, 0.02)
+acce tilt: 1.70
+gyro tilt: 0.05
+filtered tilt: 1.70
+
+time: 1.00
+acce: (1.69, 0.18, -96.08)
+gyro: (0.04, 0.03, 0.03)
+filtered: (1.69, 0.18, 0.03)
+acce tilt: 1.70
+gyro tilt: 0.05
+filtered tilt: 1.70
+
+time: 1.10
+acce: (1.66, 0.22, -97.46)
+gyro: (0.05, 0.03, 0.03)
+filtered: (1.66, 0.22, 0.03)
+acce tilt: 1.68
+gyro tilt: 0.06
+filtered tilt: 1.68
+
+time: 1.20
+acce: (1.66, 0.25, -98.65)
+gyro: (0.05, 0.03, 0.03)
+filtered: (1.66, 0.25, 0.03)
+acce tilt: 1.68
+gyro tilt: 0.06
+filtered tilt: 1.68
+
+time: 1.30
+acce: (1.67, 0.30, -100.21)
+gyro: (0.06, 0.04, 0.04)
+filtered: (1.67, 0.30, 0.04)
+acce tilt: 1.70
+gyro tilt: 0.07
+filtered tilt: 1.70
+
+time: 1.40
+acce: (1.65, 0.25, -98.62)
+gyro: (0.06, 0.03, 0.04)
+filtered: (1.65, 0.25, 0.04)
+acce tilt: 1.66
+gyro tilt: 0.07
+filtered tilt: 1.66
+
+time: 1.51
+acce: (1.70, 0.20, -96.72)
+gyro: (0.06, 0.03, 0.04)
+filtered: (1.70, 0.20, 0.04)
+acce tilt: 1.72
+gyro tilt: 0.07
+filtered tilt: 1.72
+
+time: 1.61
+acce: (1.71, 0.15, -95.10)
+gyro: (0.07, 0.03, 0.04)
+filtered: (1.71, 0.15, 0.04)
+acce tilt: 1.71
+gyro tilt: 0.08
+filtered tilt: 1.71
+
+time: 1.71
+acce: (1.73, 0.27, -98.98)
+gyro: (0.07, 0.04, 0.04)
+filtered: (1.73, 0.27, 0.04)
+acce tilt: 1.75
+gyro tilt: 0.08
+filtered tilt: 1.75
+
+time: 1.81
+acce: (1.71, 0.30, -100.12)
+gyro: (0.07, 0.04, 0.05)
+filtered: (1.71, 0.30, 0.05)
+acce tilt: 1.73
+gyro tilt: 0.08
+filtered tilt: 1.73
+
+time: 1.91
+acce: (1.70, 0.28, -99.46)
+gyro: (0.08, 0.05, 0.05)
+filtered: (1.70, 0.28, 0.05)
+acce tilt: 1.73
+gyro tilt: 0.09
+filtered tilt: 1.73
+
+time: 2.01
+acce: (1.74, 0.28, -99.17)
+gyro: (0.08, 0.05, 0.05)
+filtered: (1.74, 0.28, 0.05)
+acce tilt: 1.76
+gyro tilt: 0.09
+filtered tilt: 1.76
+
+time: 2.11
+acce: (1.73, 0.25, -98.07)
+gyro: (0.08, 0.04, 0.05)
+filtered: (1.73, 0.25, 0.05)
+acce tilt: 1.75
+gyro tilt: 0.09
+filtered tilt: 1.75
+
+time: 2.21
+acce: (1.83, 0.26, -98.16)
+gyro: (0.09, 0.04, 0.05)
+filtered: (1.83, 0.26, 0.05)
+acce tilt: 1.85
+gyro tilt: 0.09
+filtered tilt: 1.85
+
+time: 2.31
+acce: (1.69, 0.21, -97.24)
+gyro: (0.09, 0.04, 0.05)
+filtered: (1.69, 0.21, 0.05)
+acce tilt: 1.71
+gyro tilt: 0.10
+filtered tilt: 1.71
+
+time: 2.41
+acce: (1.71, 0.29, -99.72)
+gyro: (0.09, 0.04, 0.05)
+filtered: (1.71, 0.29, 0.05)
+acce tilt: 1.74
+gyro tilt: 0.10
+filtered tilt: 1.74
+
+time: 2.51
+acce: (1.70, 0.24, -97.88)
+gyro: (0.09, 0.04, 0.06)
+filtered: (1.70, 0.24, 0.06)
+acce tilt: 1.71
+gyro tilt: 0.10
+filtered tilt: 1.71
+
+time: 2.61
+acce: (1.68, 0.17, -95.75)
+gyro: (0.09, 0.04, 0.06)
+filtered: (1.68, 0.17, 0.06)
+acce tilt: 1.69
+gyro tilt: 0.10
+filtered tilt: 1.69
+
+time: 2.71
+acce: (1.67, 0.23, -97.91)
+gyro: (0.10, 0.04, 0.06)
+filtered: (1.67, 0.23, 0.06)
+acce tilt: 1.68
+gyro tilt: 0.11
+filtered tilt: 1.68
+
+time: 2.81
+acce: (1.68, 0.22, -97.50)
+gyro: (0.10, 0.04, 0.07)
+filtered: (1.68, 0.22, 0.07)
+acce tilt: 1.70
+gyro tilt: 0.11
+filtered tilt: 1.70
+
+time: 2.91
+acce: (1.63, 0.24, -98.44)
+gyro: (0.10, 0.03, 0.07)
+filtered: (1.63, 0.24, 0.07)
+acce tilt: 1.65
+gyro tilt: 0.11
+filtered tilt: 1.65
+
+time: 3.01
+acce: (1.70, 0.27, -98.91)
+gyro: (0.10, 0.03, 0.07)
+filtered: (1.70, 0.27, 0.07)
+acce tilt: 1.72
+gyro tilt: 0.11
+filtered tilt: 1.72
+
+time: 3.11
+acce: (1.69, 0.26, -98.83)
+gyro: (0.11, 0.03, 0.07)
+filtered: (1.69, 0.26, 0.07)
+acce tilt: 1.71
+gyro tilt: 0.11
+filtered tilt: 1.71
+
+time: 3.21
+acce: (1.72, 0.24, -98.00)
+gyro: (0.11, 0.03, 0.08)
+filtered: (1.72, 0.24, 0.08)
+acce tilt: 1.74
+gyro tilt: 0.12
+filtered tilt: 1.74
+
+time: 3.31
+acce: (1.67, 0.20, -96.80)
+gyro: (0.12, 0.05, 0.07)
+filtered: (1.67, 0.20, 0.07)
+acce tilt: 1.68
+gyro tilt: 0.13
+filtered tilt: 1.68
+
+time: 3.41
+acce: (1.63, 0.26, -99.13)
+gyro: (0.13, 0.06, 0.07)
+filtered: (1.63, 0.26, 0.07)
+acce tilt: 1.65
+gyro tilt: 0.14
+filtered tilt: 1.65
+
+time: 3.51
+acce: (1.64, 0.18, -96.14)
+gyro: (0.13, 0.05, 0.07)
+filtered: (1.64, 0.18, 0.07)
+acce tilt: 1.65
+gyro tilt: 0.14
+filtered tilt: 1.65
+
+time: 3.61
+acce: (1.63, 0.20, -97.13)
+gyro: (0.14, 0.06, 0.07)
+filtered: (1.63, 0.20, 0.07)
+acce tilt: 1.64
+gyro tilt: 0.15
+filtered tilt: 1.64
+
+time: 3.71
+acce: (1.65, 0.22, -97.78)
+gyro: (0.14, 0.06, 0.08)
+filtered: (1.65, 0.22, 0.08)
+acce tilt: 1.66
+gyro tilt: 0.16
+filtered tilt: 1.66
+
+time: 3.81
+acce: (1.66, 0.19, -96.64)
+gyro: (0.15, 0.06, 0.08)
+filtered: (1.66, 0.19, 0.08)
+acce tilt: 1.67
+gyro tilt: 0.16
+filtered tilt: 1.67
+
+time: 3.91
+acce: (1.65, 0.17, -95.85)
+gyro: (0.15, 0.06, 0.09)
+filtered: (1.65, 0.17, 0.09)
+acce tilt: 1.66
+gyro tilt: 0.17
+filtered tilt: 1.66
+
+time: 4.01
+acce: (1.67, 0.18, -96.14)
+gyro: (0.15, 0.07, 0.09)
+filtered: (1.67, 0.18, 0.09)
+acce tilt: 1.68
+gyro tilt: 0.17
+filtered tilt: 1.68
+
+time: 4.11
+acce: (1.70, 0.27, -98.93)
+gyro: (0.16, 0.07, 0.08)
+filtered: (1.70, 0.27, 0.08)
+acce tilt: 1.72
+gyro tilt: 0.17
+filtered tilt: 1.72
+
+time: 4.21
+acce: (1.68, 0.26, -98.92)
+gyro: (0.16, 0.07, 0.09)
+filtered: (1.68, 0.26, 0.09)
+acce tilt: 1.70
+gyro tilt: 0.17
+filtered tilt: 1.70
+
+time: 4.31
+acce: (1.68, 0.23, -97.75)
+gyro: (0.16, 0.07, 0.09)
+filtered: (1.68, 0.23, 0.09)
+acce tilt: 1.70
+gyro tilt: 0.18
+filtered tilt: 1.70
+
+time: 4.41
+acce: (1.66, 0.23, -97.98)
+gyro: (0.17, 0.07, 0.09)
+filtered: (1.66, 0.23, 0.09)
+acce tilt: 1.67
+gyro tilt: 0.18
+filtered tilt: 1.67
+
+time: 4.51
+acce: (1.66, 0.21, -97.13)
+gyro: (0.17, 0.08, 0.09)
+filtered: (1.66, 0.21, 0.09)
+acce tilt: 1.67
+gyro tilt: 0.18
+filtered tilt: 1.67
+
+time: 4.61
+acce: (1.66, 0.15, -95.01)
+gyro: (0.17, 0.07, 0.09)
+filtered: (1.66, 0.15, 0.09)
+acce tilt: 1.66
+gyro tilt: 0.18
+filtered tilt: 1.66
+
+time: 4.71
+acce: (1.66, 0.26, -98.78)
+gyro: (0.17, 0.07, 0.09)
+filtered: (1.66, 0.26, 0.09)
+acce tilt: 1.68
+gyro tilt: 0.18
+filtered tilt: 1.68
+
+time: 4.81
+acce: (1.67, 0.20, -96.72)
+gyro: (0.17, 0.07, 0.09)
+filtered: (1.67, 0.20, 0.09)
+acce tilt: 1.69
+gyro tilt: 0.18
+filtered tilt: 1.69
+
+time: 4.91
+acce: (1.67, 0.21, -97.33)
+gyro: (0.17, 0.08, 0.10)
+filtered: (1.67, 0.21, 0.10)
+acce tilt: 1.68
+gyro tilt: 0.19
+filtered tilt: 1.68
+
+time: 5.01
+acce: (1.71, 0.21, -97.15)
+gyro: (0.18, 0.08, 0.10)
+filtered: (1.71, 0.21, 0.10)
+acce tilt: 1.72
+gyro tilt: 0.19
+filtered tilt: 1.72
+
+time: 5.12
+acce: (1.72, 0.23, -97.68)
+gyro: (0.18, 0.08, 0.10)
+filtered: (1.72, 0.23, 0.10)
+acce tilt: 1.74
+gyro tilt: 0.20
+filtered tilt: 1.74
+
+time: 5.22
+acce: (1.70, 0.20, -96.87)
+gyro: (0.19, 0.08, 0.10)
+filtered: (1.70, 0.20, 0.10)
+acce tilt: 1.71
+gyro tilt: 0.20
+filtered tilt: 1.71
+
+time: 5.32
+acce: (1.67, 0.29, -99.94)
+gyro: (0.19, 0.08, 0.10)
+filtered: (1.67, 0.29, 0.10)
+acce tilt: 1.70
+gyro tilt: 0.21
+filtered tilt: 1.70
+
+time: 5.42
+acce: (1.73, 0.25, -98.19)
+gyro: (0.19, 0.08, 0.09)
+filtered: (1.73, 0.25, 0.09)
+acce tilt: 1.75
+gyro tilt: 0.21
+filtered tilt: 1.75
+
+time: 5.52
+acce: (1.75, 0.30, -99.77)
+gyro: (0.19, 0.07, 0.10)
+filtered: (1.75, 0.30, 0.10)
+acce tilt: 1.77
+gyro tilt: 0.20
+filtered tilt: 1.77
+
+time: 5.62
+acce: (1.75, 0.27, -98.65)
+gyro: (0.20, 0.07, 0.10)
+filtered: (1.75, 0.27, 0.10)
+acce tilt: 1.77
+gyro tilt: 0.21
+filtered tilt: 1.77
+
+time: 5.72
+acce: (1.72, 0.29, -99.72)
+gyro: (0.20, 0.07, 0.10)
+filtered: (1.72, 0.29, 0.10)
+acce tilt: 1.74
+gyro tilt: 0.21
+filtered tilt: 1.74
+
+time: 5.82
+acce: (1.73, 0.26, -98.68)
+gyro: (0.20, 0.06, 0.11)
+filtered: (1.73, 0.26, 0.11)
+acce tilt: 1.75
+gyro tilt: 0.21
+filtered tilt: 1.75
+
+time: 5.92
+acce: (1.76, 0.24, -97.62)
+gyro: (0.21, 0.05, 0.11)
+filtered: (1.76, 0.24, 0.11)
+acce tilt: 1.77
+gyro tilt: 0.21
+filtered tilt: 1.77
+
+time: 6.02
+acce: (1.70, 0.23, -97.79)
+gyro: (0.21, 0.05, 0.11)
+filtered: (1.70, 0.23, 0.11)
+acce tilt: 1.71
+gyro tilt: 0.22
+filtered tilt: 1.71
+
+time: 6.11
+acce: (1.74, 0.26, -98.48)
+gyro: (0.21, 0.05, 0.12)
+filtered: (1.74, 0.26, 0.12)
+acce tilt: 1.76
+gyro tilt: 0.22
+filtered tilt: 1.76
+
+time: 6.21
+acce: (1.74, 0.27, -98.70)
+gyro: (0.22, 0.05, 0.12)
+filtered: (1.74, 0.27, 0.12)
+acce tilt: 1.76
+gyro tilt: 0.22
+filtered tilt: 1.76
+
+time: 6.31
+acce: (1.72, 0.32, -100.49)
+gyro: (0.22, 0.04, 0.12)
+filtered: (1.72, 0.32, 0.12)
+acce tilt: 1.75
+gyro tilt: 0.22
+filtered tilt: 1.75
+
+time: 6.41
+acce: (1.74, 0.27, -98.81)
+gyro: (0.23, 0.05, 0.13)
+filtered: (1.74, 0.27, 0.13)
+acce tilt: 1.76
+gyro tilt: 0.23
+filtered tilt: 1.76
+
+time: 6.51
+acce: (1.65, 0.16, -95.51)
+gyro: (0.23, 0.05, 0.13)
+filtered: (1.65, 0.16, 0.13)
+acce tilt: 1.66
+gyro tilt: 0.23
+filtered tilt: 1.66
+
+time: 6.61
+acce: (1.65, 0.18, -96.34)
+gyro: (0.23, 0.05, 0.13)
+filtered: (1.65, 0.18, 0.13)
+acce tilt: 1.66
+gyro tilt: 0.23
+filtered tilt: 1.66
+
+time: 6.71
+acce: (1.74, 0.18, -96.01)
+gyro: (0.24, 0.05, 0.13)
+filtered: (1.74, 0.18, 0.13)
+acce tilt: 1.75
+gyro tilt: 0.24
+filtered tilt: 1.75
+
+time: 6.81
+acce: (1.76, 0.22, -97.26)
+gyro: (0.24, 0.05, 0.13)
+filtered: (1.76, 0.22, 0.13)
+acce tilt: 1.78
+gyro tilt: 0.25
+filtered tilt: 1.78
+
+time: 6.91
+acce: (1.66, 0.15, -95.12)
+gyro: (0.24, 0.05, 0.13)
+filtered: (1.66, 0.15, 0.13)
+acce tilt: 1.67
+gyro tilt: 0.25
+filtered tilt: 1.67
+
+time: 7.02
+acce: (1.69, 0.17, -95.72)
+gyro: (0.24, 0.05, 0.14)
+filtered: (1.69, 0.17, 0.14)
+acce tilt: 1.70
+gyro tilt: 0.25
+filtered tilt: 1.70
+
+time: 7.12
+acce: (1.76, 0.13, -94.17)
+gyro: (0.25, 0.05, 0.13)
+filtered: (1.76, 0.13, 0.13)
+acce tilt: 1.76
+gyro tilt: 0.25
+filtered tilt: 1.76
+
+time: 7.22
+acce: (1.78, 0.03, -91.01)
+gyro: (0.26, 0.05, 0.13)
+filtered: (1.78, 0.03, 0.13)
+acce tilt: 1.78
+gyro tilt: 0.26
+filtered tilt: 1.78
+
+time: 7.32
+acce: (1.58, 0.22, -98.09)
+gyro: (0.27, 0.05, 0.14)
+filtered: (1.58, 0.22, 0.14)
+acce tilt: 1.60
+gyro tilt: 0.27
+filtered tilt: 1.60
+
+time: 7.42
+acce: (1.67, 0.19, -96.38)
+gyro: (0.27, 0.05, 0.13)
+filtered: (1.67, 0.19, 0.13)
+acce tilt: 1.68
+gyro tilt: 0.28
+filtered tilt: 1.68
+
+time: 7.52
+acce: (1.88, 0.17, -95.06)
+gyro: (0.28, 0.05, 0.13)
+filtered: (1.88, 0.17, 0.13)
+acce tilt: 1.89
+gyro tilt: 0.28
+filtered tilt: 1.89
+
+time: 7.62
+acce: (1.64, 0.19, -96.72)
+gyro: (0.30, 0.05, 0.14)
+filtered: (1.64, 0.19, 0.14)
+acce tilt: 1.65
+gyro tilt: 0.30
+filtered tilt: 1.65
+
+time: 7.72
+acce: (1.67, 0.18, -96.26)
+gyro: (0.33, 0.05, 0.14)
+filtered: (1.67, 0.18, 0.14)
+acce tilt: 1.68
+gyro tilt: 0.33
+filtered tilt: 1.68
+
+time: 7.82
+acce: (1.52, -8.52, -10.16)
+gyro: (8.85, 3.85, -1.00)
+filtered: (1.52, -8.52, -1.00)
+acce tilt: 8.65
+gyro tilt: 9.65
+filtered tilt: 8.65
+
+time: 7.92
+acce: (-11.99, 5.00, 112.78)
+gyro: (11.90, 5.47, -2.19)
+filtered: (-11.99, 5.00, -2.19)
+acce tilt: 12.99
+gyro tilt: 13.10
+filtered tilt: 12.99
+
+time: 8.02
+acce: (-9.70, 6.28, 122.98)
+gyro: (11.29, 3.02, -4.88)
+filtered: (-9.70, 6.28, -4.88)
+acce tilt: 11.56
+gyro tilt: 11.69
+filtered tilt: 11.56
+
+time: 8.12
+acce: (-10.56, 2.11, 101.39)
+gyro: (13.24, -0.13, -6.03)
+filtered: (-10.56, 2.11, -6.03)
+acce tilt: 10.77
+gyro tilt: 13.25
+filtered tilt: 10.77
+
+time: 8.22
+acce: (-10.26, 1.36, 97.60)
+gyro: (14.43, -1.26, -4.08)
+filtered: (-10.26, 1.36, -4.08)
+acce tilt: 10.35
+gyro tilt: 14.49
+filtered tilt: 10.35
+
+time: 8.32
+acce: (-11.67, 1.15, 95.68)
+gyro: (16.07, -1.50, 3.25)
+filtered: (-11.67, 1.15, 3.25)
+acce tilt: 11.73
+gyro tilt: 16.14
+filtered tilt: 11.73
+
+time: 8.42
+acce: (-10.57, -0.14, 89.23)
+gyro: (18.34, 0.17, 13.36)
+filtered: (-10.57, -0.14, 13.36)
+acce tilt: 10.57
+gyro tilt: 18.34
+filtered tilt: 10.57
+
+time: 8.52
+acce: (-11.35, -1.52, 82.30)
+gyro: (24.49, 1.41, 23.87)
+filtered: (-11.35, -1.52, 23.87)
+acce tilt: 11.46
+gyro tilt: 24.53
+filtered tilt: 11.46
+
+time: 8.62
+acce: (-16.58, -3.58, 77.65)
+gyro: (26.30, 3.12, 30.28)
+filtered: (-16.58, -3.58, 30.28)
+acce tilt: 16.96
+gyro tilt: 26.48
+filtered tilt: 16.96
+
+time: 8.72
+acce: (-19.26, -5.86, 72.81)
+gyro: (30.59, 6.43, 41.41)
+filtered: (-19.26, -5.86, 41.41)
+acce tilt: 20.14
+gyro tilt: 31.26
+filtered tilt: 20.14
+
+time: 8.82
+acce: (-21.14, -5.61, 74.82)
+gyro: (32.23, 9.83, 49.47)
+filtered: (-21.14, -5.61, 49.47)
+acce tilt: 21.87
+gyro tilt: 33.70
+filtered tilt: 21.87
+
+time: 8.92
+acce: (-20.34, -5.36, 74.97)
+gyro: (32.62, 12.39, 56.04)
+filtered: (-20.34, -5.36, 56.04)
+acce tilt: 21.04
+gyro tilt: 34.89
+filtered tilt: 21.04
+
+time: 9.02
+acce: (-19.21, -7.94, 67.24)
+gyro: (32.21, 14.70, 60.10)
+filtered: (-19.21, -7.94, 60.10)
+acce tilt: 20.79
+gyro tilt: 35.40
+filtered tilt: 20.79
+
+time: 9.12
+acce: (-18.99, -9.62, 62.82)
+gyro: (31.79, 16.61, 58.91)
+filtered: (-18.99, -9.62, 58.91)
+acce tilt: 21.29
+gyro tilt: 35.87
+filtered tilt: 21.29
+
+time: 9.22
+acce: (-17.31, -8.61, 63.28)
+gyro: (30.40, 15.97, 55.08)
+filtered: (-17.31, -8.61, 55.08)
+acce tilt: 19.34
+gyro tilt: 34.34
+filtered tilt: 19.34
+
+time: 9.32
+acce: (-19.31, -6.69, 70.59)
+gyro: (28.21, 14.20, 46.80)
+filtered: (-19.31, -6.69, 46.80)
+acce tilt: 20.43
+gyro tilt: 31.58
+filtered tilt: 20.43
+
+time: 9.42
+acce: (-16.25, -3.59, 77.39)
+gyro: (26.99, 11.20, 39.01)
+filtered: (-16.25, -3.59, 39.01)
+acce tilt: 16.64
+gyro tilt: 29.22
+filtered tilt: 16.64
+
+time: 9.52
+acce: (-16.81, -2.67, 80.85)
+gyro: (25.96, 10.39, 27.22)
+filtered: (-16.81, -2.67, 27.22)
+acce tilt: 17.02
+gyro tilt: 27.96
+filtered tilt: 17.02
+
+time: 9.62
+acce: (-17.08, -2.42, 81.83)
+gyro: (27.81, 7.16, 17.92)
+filtered: (-17.08, -2.42, 17.92)
+acce tilt: 17.25
+gyro tilt: 28.71
+filtered tilt: 17.25
+
+time: 9.72
+acce: (-19.80, 1.71, 95.03)
+gyro: (28.74, 4.47, 6.76)
+filtered: (-19.80, 1.71, 6.76)
+acce tilt: 19.88
+gyro tilt: 29.09
+filtered tilt: 19.88
+
+time: 9.82
+acce: (-13.57, 2.76, 101.61)
+gyro: (26.97, 3.74, -11.78)
+filtered: (-13.57, 2.76, -11.78)
+acce tilt: 13.85
+gyro tilt: 27.22
+filtered tilt: 13.85
+
+time: 9.92
+acce: (-14.40, 3.54, 103.95)
+gyro: (27.02, 0.86, -24.36)
+filtered: (-14.40, 3.54, -24.36)
+acce tilt: 14.82
+gyro tilt: 27.03
+filtered tilt: 14.82
+
+time: 10.02
+acce: (-11.30, 5.77, 117.17)
+gyro: (22.19, -2.85, -36.10)
+filtered: (-11.30, 5.77, -36.10)
+acce tilt: 12.69
+gyro tilt: 22.37
+filtered tilt: 12.69
+
+time: 10.12
+acce: (-10.87, 4.86, 114.19)
+gyro: (21.15, -5.67, -46.68)
+filtered: (-10.87, 4.86, -46.68)
+acce tilt: 11.91
+gyro tilt: 21.90
+filtered tilt: 11.91
+
+time: 10.22
+acce: (-6.35, 4.67, 126.36)
+gyro: (22.29, -10.19, -53.28)
+filtered: (-6.35, 4.67, -53.28)
+acce tilt: 7.88
+gyro tilt: 24.51
+filtered tilt: 7.88
+
+time: 10.32
+acce: (-6.79, 3.96, 120.32)
+gyro: (20.96, -13.01, -56.03)
+filtered: (-6.79, 3.96, -56.03)
+acce tilt: 7.86
+gyro tilt: 24.67
+filtered tilt: 7.86
+
+time: 10.42
+acce: (-11.47, 4.09, 109.71)
+gyro: (22.97, -12.79, -56.26)
+filtered: (-11.47, 4.09, -56.26)
+acce tilt: 12.18
+gyro tilt: 26.30
+filtered tilt: 12.18
+
+time: 10.52
+acce: (-15.91, 2.66, 99.62)
+gyro: (33.83, -7.99, -50.37)
+filtered: (-15.91, 2.66, -50.37)
+acce tilt: 16.13
+gyro tilt: 34.76
+filtered tilt: 16.13
+
+time: 10.62
+acce: (-26.77, 4.05, 98.90)
+gyro: (42.56, -5.24, -46.36)
+filtered: (-26.77, 4.05, -46.36)
+acce tilt: 27.07
+gyro tilt: 42.88
+filtered tilt: 27.07
+
+time: 10.72
+acce: (-33.95, 3.14, 95.61)
+gyro: (54.28, -2.25, -41.62)
+filtered: (-33.95, 3.14, -41.62)
+acce tilt: 34.09
+gyro tilt: 54.33
+filtered tilt: 34.09
+
+time: 10.82
+acce: (-42.53, 4.14, 96.09)
+gyro: (62.30, 1.63, -38.73)
+filtered: (-42.53, 4.14, -38.73)
+acce tilt: 42.73
+gyro tilt: 62.32
+filtered tilt: 42.73
+
+time: 10.92
+acce: (-54.47, 5.05, 96.17)
+gyro: (70.69, 4.95, -35.51)
+filtered: (-54.47, 5.05, -35.51)
+acce tilt: 54.70
+gyro tilt: 70.87
+filtered tilt: 54.70
+
+time: 11.02
+acce: (-67.45, 1.85, 92.01)
+gyro: (81.26, 8.22, -33.68)
+filtered: (-67.45, 1.85, -33.68)
+acce tilt: 67.48
+gyro tilt: 81.68
+filtered tilt: 67.48
+
+time: 11.12
+acce: (-73.62, 2.00, 92.08)
+gyro: (89.31, 12.06, -31.52)
+filtered: (-73.62, 2.00, -31.52)
+acce tilt: 73.65
+gyro tilt: 90.12
+filtered tilt: 73.65
+
+time: 11.22
+acce: (-82.51, 2.94, 92.96)
+gyro: (97.31, 15.82, -29.51)
+filtered: (-82.51, 2.94, -29.51)
+acce tilt: 82.56
+gyro tilt: 98.59
+filtered tilt: 82.56
+
+time: 11.32
+acce: (-87.10, -1.37, 88.63)
+gyro: (108.34, 17.28, -29.70)
+filtered: (-87.10, -1.37, -29.70)
+acce tilt: 87.11
+gyro tilt: 109.71
+filtered tilt: 87.11
+
+time: 11.42
+acce: (-78.23, -2.26, 87.69)
+gyro: (112.99, 20.40, -28.99)
+filtered: (-78.23, -2.26, -28.99)
+acce tilt: 78.27
+gyro tilt: 114.81
+filtered tilt: 78.27
+
+time: 11.53
+acce: (-73.68, -0.30, 89.69)
+gyro: (117.24, 22.84, -28.55)
+filtered: (-73.68, -0.30, -28.55)
+acce tilt: 73.68
+gyro tilt: 119.45
+filtered tilt: 73.68
+
+time: 11.63
+acce: (-71.40, -2.45, 87.42)
+gyro: (121.88, 24.80, -26.37)
+filtered: (-71.40, -2.45, -26.37)
+acce tilt: 71.44
+gyro tilt: 124.38
+filtered tilt: 71.44
+
+time: 11.72
+acce: (-66.68, -4.72, 84.88)
+gyro: (122.86, 26.48, -26.05)
+filtered: (-66.68, -4.72, -26.05)
+acce tilt: 66.85
+gyro tilt: 125.68
+filtered tilt: 66.85
+
+time: 11.83
+acce: (-64.19, -5.40, 84.03)
+gyro: (130.23, 29.74, -26.43)
+filtered: (-64.19, -5.40, -26.43)
+acce tilt: 64.41
+gyro tilt: 133.59
+filtered tilt: 64.41
+
+time: 11.93
+acce: (-51.92, -10.28, 77.22)
+gyro: (136.94, 33.14, -26.93)
+filtered: (-51.92, -10.28, -26.93)
+acce tilt: 52.93
+gyro tilt: 140.89
+filtered tilt: 52.93
+
+time: 12.03
+acce: (-47.25, -9.69, 77.09)
+gyro: (148.25, 36.07, -25.60)
+filtered: (-47.25, -9.69, -25.60)
+acce tilt: 48.23
+gyro tilt: 152.58
+filtered tilt: 48.23
+
+time: 12.13
+acce: (-35.58, -13.45, 68.22)
+gyro: (154.27, 39.05, -23.76)
+filtered: (-35.58, -13.45, -23.76)
+acce tilt: 38.04
+gyro tilt: 159.14
+filtered tilt: 38.04
+
+time: 12.23
+acce: (-33.73, -15.15, 64.79)
+gyro: (161.51, 42.04, -27.10)
+filtered: (-33.73, -15.15, -27.10)
+acce tilt: 36.98
+gyro tilt: 166.89
+filtered tilt: 36.98
+
+time: 12.33
+acce: (-26.21, -13.05, 62.92)
+gyro: (170.07, 43.95, -34.44)
+filtered: (-26.21, -13.05, -34.44)
+acce tilt: 29.28
+gyro tilt: 175.65
+filtered tilt: 29.28
+
+time: 12.43
+acce: (-19.41, -15.07, 51.97)
+gyro: (174.30, 46.12, -38.62)
+filtered: (-19.41, -15.07, -38.62)
+acce tilt: 24.57
+gyro tilt: 180.30
+filtered tilt: 24.57
+
+time: 12.53
+acce: (-20.45, -13.05, 57.14)
+gyro: (176.26, 44.71, -40.19)
+filtered: (-20.45, -13.05, -40.19)
+acce tilt: 24.26
+gyro tilt: 181.84
+filtered tilt: 24.26
+
+time: 12.63
+acce: (-21.66, -11.65, 61.32)
+gyro: (178.74, 43.94, -36.72)
+filtered: (-21.66, -11.65, -36.72)
+acce tilt: 24.59
+gyro tilt: 184.06
+filtered tilt: 24.59
+
+time: 12.73
+acce: (-11.81, -11.96, 44.64)
+gyro: (177.98, 43.54, -37.34)
+filtered: (-11.81, -11.96, -37.34)
+acce tilt: 16.81
+gyro tilt: 183.22
+filtered tilt: 16.81
+
+time: 12.83
+acce: (-14.50, -11.69, 51.01)
+gyro: (-177.88, 44.05, -36.20)
+filtered: (-14.50, -11.69, -36.20)
+acce tilt: 18.63
+gyro tilt: 183.26
+filtered tilt: 18.63
+
+time: 12.93
+acce: (-10.18, -12.42, 39.40)
+gyro: (-171.01, 44.05, -35.14)
+filtered: (-10.18, -12.42, -35.14)
+acce tilt: 16.06
+gyro tilt: 176.59
+filtered tilt: 16.06
+
+time: 13.03
+acce: (-3.78, -9.89, 20.98)
+gyro: (-164.96, 39.69, -35.90)
+filtered: (-3.78, -9.89, -35.90)
+acce tilt: 10.59
+gyro tilt: 169.67
+filtered tilt: 10.59
+
+time: 13.13
+acce: (-1.18, -10.57, 6.42)
+gyro: (-165.61, 40.31, -36.18)
+filtered: (-1.18, -10.57, -36.18)
+acce tilt: 10.64
+gyro tilt: 170.44
+filtered tilt: 10.64
+
+time: 13.23
+acce: (9.42, -11.60, -39.14)
+gyro: (-157.87, 39.80, -37.89)
+filtered: (9.42, -11.60, -37.89)
+acce tilt: 14.94
+gyro tilt: 162.81
+filtered tilt: 14.94
+
+time: 13.33
+acce: (9.00, -12.10, -36.76)
+gyro: (-154.12, 41.65, -39.98)
+filtered: (9.00, -12.10, -39.98)
+acce tilt: 15.08
+gyro tilt: 159.65
+filtered tilt: 15.08
+
+time: 13.43
+acce: (15.92, -6.64, -67.15)
+gyro: (-150.62, 40.21, -39.52)
+filtered: (15.92, -6.64, -39.52)
+acce tilt: 17.24
+gyro tilt: 155.89
+filtered tilt: 17.24
+
+time: 13.53
+acce: (17.95, -11.84, -56.35)
+gyro: (-147.42, 44.08, -35.42)
+filtered: (17.95, -11.84, -35.42)
+acce tilt: 21.50
+gyro tilt: 153.87
+filtered tilt: 21.50
+
+time: 13.63
+acce: (19.01, -12.44, -56.51)
+gyro: (-146.01, 40.79, -37.83)
+filtered: (19.01, -12.44, -37.83)
+acce tilt: 22.72
+gyro tilt: 151.60
+filtered tilt: 22.72
+
+time: 13.73
+acce: (24.09, -11.63, -63.71)
+gyro: (-141.15, 42.74, -39.50)
+filtered: (24.09, -11.63, -39.50)
+acce tilt: 26.75
+gyro tilt: 147.47
+filtered tilt: 26.75
+
+time: 13.83
+acce: (27.93, -18.03, -56.54)
+gyro: (-134.98, 42.49, -40.37)
+filtered: (27.93, -18.03, -40.37)
+acce tilt: 33.25
+gyro tilt: 141.51
+filtered tilt: 33.25
+
+time: 13.93
+acce: (26.64, -15.22, -59.66)
+gyro: (-135.20, 42.49, -43.19)
+filtered: (26.64, -15.22, -43.19)
+acce tilt: 30.68
+gyro tilt: 141.72
+filtered tilt: 30.68
+
+time: 14.03
+acce: (35.16, -15.44, -65.19)
+gyro: (-133.82, 46.55, -44.25)
+filtered: (35.16, -15.44, -44.25)
+acce tilt: 38.40
+gyro tilt: 141.69
+filtered tilt: 38.40
+
+time: 14.13
+acce: (41.86, -4.06, -83.94)
+gyro: (-122.18, 43.56, -34.23)
+filtered: (41.86, -4.06, -34.23)
+acce tilt: 42.06
+gyro tilt: 129.72
+filtered tilt: 42.06
+
+time: 14.23
+acce: (42.48, -11.49, -73.56)
+gyro: (-115.02, 41.41, -40.73)
+filtered: (42.48, -11.49, -40.73)
+acce tilt: 44.01
+gyro tilt: 122.25
+filtered tilt: 44.01
+
+time: 14.33
+acce: (45.05, -25.83, -58.38)
+gyro: (-110.35, 45.24, -43.37)
+filtered: (45.05, -25.83, -43.37)
+acce tilt: 51.93
+gyro tilt: 119.27
+filtered tilt: 51.93
+
+time: 14.43
+acce: (54.85, -19.78, -67.52)
+gyro: (-106.18, 50.94, -41.55)
+filtered: (54.85, -19.78, -41.55)
+acce tilt: 58.31
+gyro tilt: 117.77
+filtered tilt: 58.31
+
+time: 14.53
+acce: (62.30, -15.71, -73.00)
+gyro: (-101.23, 50.32, -40.22)
+filtered: (62.30, -15.71, -40.22)
+acce tilt: 64.25
+gyro tilt: 113.05
+filtered tilt: 64.25
+
+time: 14.63
+acce: (67.69, -15.06, -74.32)
+gyro: (-92.81, 53.80, -38.01)
+filtered: (67.69, -15.06, -38.01)
+acce tilt: 69.35
+gyro tilt: 107.27
+filtered tilt: 69.35
+
+time: 14.73
+acce: (68.78, -18.36, -71.33)
+gyro: (-84.22, 58.88, -37.65)
+filtered: (68.78, -18.36, -37.65)
+acce tilt: 71.19
+gyro tilt: 102.76
+filtered tilt: 71.19
+
+time: 14.83
+acce: (68.27, -21.70, -68.29)
+gyro: (-79.78, 63.49, -41.39)
+filtered: (68.27, -21.70, -41.39)
+acce tilt: 71.64
+gyro tilt: 101.96
+filtered tilt: 71.64
+
+time: 14.93
+acce: (66.44, -21.59, -68.13)
+gyro: (-73.20, 68.63, -43.05)
+filtered: (66.44, -21.59, -43.05)
+acce tilt: 69.86
+gyro tilt: 100.34
+filtered tilt: 69.86
+
+time: 15.03
+acce: (60.86, -22.80, -66.07)
+gyro: (-59.00, 77.87, -47.07)
+filtered: (60.86, -22.80, -47.07)
+acce tilt: 64.99
+gyro tilt: 97.70
+filtered tilt: 64.99
+
+time: 15.13
+acce: (47.44, -24.34, -60.77)
+gyro: (-42.81, 85.80, -52.00)
+filtered: (47.44, -24.34, -52.00)
+acce tilt: 53.32
+gyro tilt: 95.88
+filtered tilt: 53.32
+
+time: 15.23
+acce: (26.61, -21.73, -50.43)
+gyro: (-28.41, 93.70, -58.19)
+filtered: (26.61, -21.73, -58.19)
+acce tilt: 34.36
+gyro tilt: 97.91
+filtered tilt: 34.36
+
+time: 15.33
+acce: (11.60, -15.44, -37.05)
+gyro: (-12.94, 101.51, -61.29)
+filtered: (11.60, -15.44, -61.29)
+acce tilt: 19.31
+gyro tilt: 102.33
+filtered tilt: 19.31
+
+time: 15.43
+acce: (0.60, -12.22, -2.84)
+gyro: (3.54, 106.67, -63.39)
+filtered: (0.60, -12.22, -63.39)
+acce tilt: 12.24
+gyro tilt: 106.73
+filtered tilt: 12.24
+
+time: 15.53
+acce: (-18.05, -5.35, 73.26)
+gyro: (12.52, 107.68, -65.72)
+filtered: (-18.05, -5.35, -65.72)
+acce tilt: 18.83
+gyro tilt: 108.41
+filtered tilt: 18.83
+
+time: 15.63
+acce: (-26.34, -3.90, 81.28)
+gyro: (15.53, 106.52, -65.77)
+filtered: (-26.34, -3.90, -65.77)
+acce tilt: 26.62
+gyro tilt: 107.65
+filtered tilt: 26.62
+
+time: 15.73
+acce: (-29.09, -6.26, 77.36)
+gyro: (22.04, 104.17, -65.78)
+filtered: (-29.09, -6.26, -65.78)
+acce tilt: 29.76
+gyro tilt: 106.47
+filtered tilt: 29.76
+
+time: 15.83
+acce: (-34.11, -9.24, 74.01)
+gyro: (26.11, 101.94, -65.89)
+filtered: (-34.11, -9.24, -65.89)
+acce tilt: 35.34
+gyro tilt: 105.23
+filtered tilt: 35.34
+
+time: 15.93
+acce: (-38.41, -8.06, 77.28)
+gyro: (29.28, 103.10, -66.57)
+filtered: (-38.41, -8.06, -66.57)
+acce tilt: 39.25
+gyro tilt: 107.17
+filtered tilt: 39.25
+
+time: 16.03
+acce: (-37.78, -9.60, 74.76)
+gyro: (15.66, 103.19, -64.13)
+filtered: (-37.78, -9.60, -64.13)
+acce tilt: 38.98
+gyro tilt: 104.37
+filtered tilt: 38.98
+
+time: 16.13
+acce: (-19.26, -9.78, 62.74)
+gyro: (0.44, 104.46, -61.89)
+filtered: (-19.26, -9.78, -61.89)
+acce tilt: 21.60
+gyro tilt: 104.46
+filtered tilt: 21.60
+
+time: 16.23
+acce: (7.62, -16.70, -24.76)
+gyro: (-22.43, 102.78, -59.70)
+filtered: (7.62, -16.70, -59.70)
+acce tilt: 18.35
+gyro tilt: 105.20
+filtered tilt: 18.35
+
+time: 16.33
+acce: (26.02, -17.38, -55.75)
+gyro: (-46.34, 100.63, -61.00)
+filtered: (26.02, -17.38, -61.00)
+acce tilt: 31.29
+gyro tilt: 110.79
+filtered tilt: 31.29
+
+time: 16.44
+acce: (54.12, -18.01, -69.11)
+gyro: (-69.55, 95.79, -65.50)
+filtered: (54.12, -18.01, -65.50)
+acce tilt: 57.03
+gyro tilt: 118.37
+filtered tilt: 57.03
+
+time: 16.54
+acce: (65.32, -19.67, -69.67)
+gyro: (-82.84, 90.41, -67.90)
+filtered: (65.32, -19.67, -67.90)
+acce tilt: 68.22
+gyro tilt: 122.62
+filtered tilt: 68.22
+
+time: 16.64
+acce: (66.52, -23.23, -66.74)
+gyro: (-91.56, 88.53, -71.88)
+filtered: (66.52, -23.23, -71.88)
+acce tilt: 70.46
+gyro tilt: 127.36
+filtered tilt: 70.46
+
+time: 16.74
+acce: (53.19, -35.43, -54.09)
+gyro: (-97.49, 85.61, -79.37)
+filtered: (53.19, -35.43, -79.37)
+acce tilt: 63.91
+gyro tilt: 129.74
+filtered tilt: 63.91
+
+time: 16.84
+acce: (41.54, -41.51, -45.02)
+gyro: (-119.23, 71.19, -96.42)
+filtered: (41.54, -41.51, -96.42)
+acce tilt: 58.72
+gyro tilt: 138.86
+filtered tilt: 58.72
+
+time: 16.94
+acce: (4.82, -43.94, -6.90)
+gyro: (-144.98, 58.52, -123.53)
+filtered: (4.82, -43.94, -123.53)
+acce tilt: 44.21
+gyro tilt: 156.34
+filtered tilt: 44.21
+
+time: 17.04
+acce: (-15.49, -28.82, 28.99)
+gyro: (-153.93, 52.27, -137.52)
+filtered: (-15.49, -28.82, -137.52)
+acce tilt: 32.71
+gyro tilt: 162.57
+filtered tilt: 32.71
+
+time: 17.14
+acce: (-19.36, -18.54, 46.20)
+gyro: (-157.49, 40.22, -145.31)
+filtered: (-19.36, -18.54, -145.31)
+acce tilt: 26.81
+gyro tilt: 162.55
+filtered tilt: 26.81
+
+time: 17.24
+acce: (-43.30, 5.61, 98.12)
+gyro: (-175.16, 20.19, -153.48)
+filtered: (-43.30, 5.61, -153.48)
+acce tilt: 43.66
+gyro tilt: 176.32
+filtered tilt: 43.66
+
+time: 17.34
+acce: (-49.19, 27.32, 121.23)
+gyro: (169.69, 9.34, -157.98)
+filtered: (-49.19, 27.32, -157.98)
+acce tilt: 56.27
+gyro tilt: 169.95
+filtered tilt: 56.27
+
+time: 17.44
+acce: (-59.90, 18.46, 110.10)
+gyro: (158.00, 1.71, -164.10)
+filtered: (-59.90, 18.46, -164.10)
+acce tilt: 62.68
+gyro tilt: 158.01
+filtered tilt: 62.68
+
+time: 17.54
+acce: (-61.68, 27.02, 117.30)
+gyro: (143.78, -0.98, -165.22)
+filtered: (-61.68, 27.02, -165.22)
+acce tilt: 67.34
+gyro tilt: 143.78
+filtered tilt: 67.34
+
+time: 17.64
+acce: (-66.96, 22.22, 112.34)
+gyro: (129.87, -18.34, -176.36)
+filtered: (-66.96, 22.22, -176.36)
+acce tilt: 70.55
+gyro tilt: 131.16
+filtered tilt: 70.55
+
+time: 17.74
+acce: (-47.46, 27.42, 122.00)
+gyro: (109.97, -38.19, 179.37)
+filtered: (-47.46, 27.42, 179.37)
+acce tilt: 54.81
+gyro tilt: 116.41
+filtered tilt: 54.81
+
+time: 17.84
+acce: (-34.44, 25.57, 127.35)
+gyro: (93.53, -44.16, 179.00)
+filtered: (-34.44, 25.57, 179.00)
+acce tilt: 42.89
+gyro tilt: 103.43
+filtered tilt: 42.89
+
+time: 17.94
+acce: (5.17, 12.05, -156.66)
+gyro: (57.13, -55.68, 171.87)
+filtered: (5.17, 12.05, 171.87)
+acce tilt: 13.11
+gyro tilt: 79.77
+filtered tilt: 13.11
+
+time: 18.04
+acce: (28.41, 1.84, -93.86)
+gyro: (46.72, -57.49, 167.02)
+filtered: (28.41, 1.84, 167.02)
+acce tilt: 28.46
+gyro tilt: 74.08
+filtered tilt: 28.46
+
+time: 18.14
+acce: (20.23, 6.35, -107.73)
+gyro: (52.80, -56.53, 165.51)
+filtered: (20.23, 6.35, 165.51)
+acce tilt: 21.21
+gyro tilt: 77.35
+filtered tilt: 21.21
+
+time: 18.24
+acce: (26.49, 8.05, -107.44)
+gyro: (65.93, -56.91, 160.65)
+filtered: (26.49, 8.05, 160.65)
+acce tilt: 27.68
+gyro tilt: 87.09
+filtered tilt: 27.68
+
+time: 18.34
+acce: (11.55, -13.02, -41.64)
+gyro: (67.07, -68.24, 168.61)
+filtered: (11.55, -13.02, 168.61)
+acce tilt: 17.40
+gyro tilt: 95.68
+filtered tilt: 17.40
+
+time: 18.44
+acce: (-17.52, -15.12, 49.09)
+gyro: (85.47, -74.57, 174.15)
+filtered: (-17.52, -15.12, 174.15)
+acce tilt: 23.14
+gyro tilt: 113.42
+filtered tilt: 23.14
+
+time: 18.54
+acce: (-0.78, -11.08, 4.08)
+gyro: (88.38, -74.98, 175.97)
+filtered: (-0.78, -11.08, 175.97)
+acce tilt: 11.11
+gyro tilt: 115.90
+filtered tilt: 11.11
+
+time: 18.64
+acce: (-5.14, -16.20, 17.81)
+gyro: (91.15, -71.16, -179.76)
+filtered: (-5.14, -16.20, -179.76)
+acce tilt: 17.00
+gyro tilt: 115.64
+filtered tilt: 17.00
+
+time: 18.74
+acce: (-15.99, -20.01, 38.83)
+gyro: (92.68, -61.17, -177.88)
+filtered: (-15.99, -20.01, -177.88)
+acce tilt: 25.61
+gyro tilt: 111.05
+filtered tilt: 25.61
+
+time: 18.84
+acce: (-8.84, -10.62, 39.84)
+gyro: (92.40, -58.22, -176.03)
+filtered: (-8.84, -10.62, -176.03)
+acce tilt: 13.82
+gyro tilt: 109.21
+filtered tilt: 13.82
+
+time: 18.94
+acce: (-11.29, -7.24, 57.24)
+gyro: (91.73, -59.40, -175.52)
+filtered: (-11.29, -7.24, -175.52)
+acce tilt: 13.41
+gyro tilt: 109.28
+filtered tilt: 13.41
+
+time: 19.04
+acce: (-10.59, -2.81, 75.04)
+gyro: (90.21, -59.74, -175.73)
+filtered: (-10.59, -2.81, -175.73)
+acce tilt: 10.96
+gyro tilt: 108.20
+filtered tilt: 10.96
+
+time: 19.14
+acce: (-10.71, -5.23, 63.85)
+gyro: (89.15, -59.30, -175.52)
+filtered: (-10.71, -5.23, -175.52)
+acce tilt: 11.92
+gyro tilt: 107.08
+filtered tilt: 11.92
+
+time: 19.24
+acce: (-9.71, -3.64, 69.36)
+gyro: (89.27, -58.15, -175.38)
+filtered: (-9.71, -3.64, -175.38)
+acce tilt: 10.37
+gyro tilt: 106.54
+filtered tilt: 10.37
+
+time: 19.34
+acce: (-7.87, -3.00, 69.07)
+gyro: (89.08, -56.97, -175.25)
+filtered: (-7.87, -3.00, -175.25)
+acce tilt: 8.43
+gyro tilt: 105.74
+filtered tilt: 8.43
+
+time: 19.44
+acce: (-6.87, -4.57, 56.32)
+gyro: (88.42, -57.25, -174.77)
+filtered: (-6.87, -4.57, -174.77)
+acce tilt: 8.25
+gyro tilt: 105.34
+filtered tilt: 8.25
+
+time: 19.54
+acce: (-4.32, -5.89, 36.30)
+gyro: (87.54, -55.86, -174.48)
+filtered: (-4.32, -5.89, -174.48)
+acce tilt: 7.31
+gyro tilt: 103.85
+filtered tilt: 7.31
+
+time: 19.64
+acce: (-6.63, -1.58, 76.56)
+gyro: (87.44, -55.48, -174.13)
+filtered: (-6.63, -1.58, -174.13)
+acce tilt: 6.81
+gyro tilt: 103.56
+filtered tilt: 6.81
+
+time: 19.74
+acce: (-4.23, 0.82, 101.03)
+gyro: (86.58, -54.53, -174.19)
+filtered: (-4.23, 0.82, -174.19)
+acce tilt: 4.31
+gyro tilt: 102.32
+filtered tilt: 4.31
+
+time: 19.84
+acce: (-2.75, 0.31, 96.48)
+gyro: (86.55, -54.51, -174.19)
+filtered: (-2.75, 0.31, -174.19)
+acce tilt: 2.76
+gyro tilt: 102.29
+filtered tilt: 2.76
+
+time: 19.94
+acce: (-2.72, 0.28, 95.89)
+gyro: (86.55, -54.52, -174.19)
+filtered: (-2.72, 0.28, -174.19)
+acce tilt: 2.73
+gyro tilt: 102.29
+filtered tilt: 2.73
+
+time: 20.04
+acce: (-2.75, 0.20, 94.26)
+gyro: (86.55, -54.53, -174.18)
+filtered: (-2.75, 0.20, -174.18)
+acce tilt: 2.75
+gyro tilt: 102.30
+filtered tilt: 2.75
+
+time: 20.14
+acce: (-2.67, 0.19, 94.15)
+gyro: (86.54, -54.54, -174.18)
+filtered: (-2.67, 0.19, -174.18)
+acce tilt: 2.68
+gyro tilt: 102.30
+filtered tilt: 2.68
+
+time: 20.24
+acce: (-2.78, 0.22, 94.49)
+gyro: (86.54, -54.55, -174.18)
+filtered: (-2.78, 0.22, -174.18)
+acce tilt: 2.79
+gyro tilt: 102.30
+filtered tilt: 2.79
+
+time: 20.34
+acce: (-2.69, 0.21, 94.57)
+gyro: (86.54, -54.56, -174.18)
+filtered: (-2.69, 0.21, -174.18)
+acce tilt: 2.69
+gyro tilt: 102.30
+filtered tilt: 2.69
+
+time: 20.44
+acce: (-2.67, 0.16, 93.34)
+gyro: (86.53, -54.57, -174.18)
+filtered: (-2.67, 0.16, -174.18)
+acce tilt: 2.68
+gyro tilt: 102.30
+filtered tilt: 2.68
+
+time: 20.54
+acce: (-2.65, 0.24, 95.15)
+gyro: (86.52, -54.57, -174.18)
+filtered: (-2.65, 0.24, -174.18)
+acce tilt: 2.66
+gyro tilt: 102.30
+filtered tilt: 2.66
+
+time: 20.64
+acce: (-2.69, 0.19, 94.13)
+gyro: (86.52, -54.58, -174.18)
+filtered: (-2.69, 0.19, -174.18)
+acce tilt: 2.70
+gyro tilt: 102.30
+filtered tilt: 2.70
+
+time: 20.74
+acce: (-2.63, 0.23, 94.97)
+gyro: (86.52, -54.59, -174.18)
+filtered: (-2.63, 0.23, -174.18)
+acce tilt: 2.64
+gyro tilt: 102.31
+filtered tilt: 2.64
+
+time: 20.84
+acce: (-2.68, 0.24, 95.16)
+gyro: (86.53, -54.60, -174.17)
+filtered: (-2.68, 0.24, -174.17)
+acce tilt: 2.70
+gyro tilt: 102.32
+filtered tilt: 2.70
+
+time: 20.94
+acce: (-2.74, 0.24, 94.98)
+gyro: (86.53, -54.61, -174.17)
+filtered: (-2.74, 0.24, -174.17)
+acce tilt: 2.75
+gyro tilt: 102.32
+filtered tilt: 2.75
+
+time: 21.04
+acce: (-2.69, 0.23, 94.79)
+gyro: (86.51, -54.62, -174.18)
+filtered: (-2.69, 0.23, -174.18)
+acce tilt: 2.70
+gyro tilt: 102.31
+filtered tilt: 2.70
+
+time: 21.14
+acce: (-2.67, 0.22, 94.68)
+gyro: (86.51, -54.63, -174.18)
+filtered: (-2.67, 0.22, -174.18)
+acce tilt: 2.68
+gyro tilt: 102.31
+filtered tilt: 2.68
+
+time: 21.24
+acce: (-2.74, 0.26, 95.33)
+gyro: (86.51, -54.62, -174.18)
+filtered: (-2.74, 0.26, -174.18)
+acce tilt: 2.75
+gyro tilt: 102.31
+filtered tilt: 2.75
+
+time: 21.34
+acce: (-2.87, 0.16, 93.11)
+gyro: (86.53, -54.63, -174.17)
+filtered: (-2.87, 0.16, -174.17)
+acce tilt: 2.88
+gyro tilt: 102.34
+filtered tilt: 2.88
+
+time: 21.44
+acce: (-2.62, 0.40, 98.77)
+gyro: (86.54, -54.61, -174.18)
+filtered: (-2.62, 0.40, -174.18)
+acce tilt: 2.65
+gyro tilt: 102.33
+filtered tilt: 2.65
+
+time: 21.54
+acce: (-2.50, 0.25, 95.80)
+gyro: (86.54, -54.62, -174.18)
+filtered: (-2.50, 0.25, -174.18)
+acce tilt: 2.51
+gyro tilt: 102.33
+filtered tilt: 2.51
+
+time: 21.64
+acce: (-2.77, 0.31, 96.42)
+gyro: (86.54, -54.62, -174.17)
+filtered: (-2.77, 0.31, -174.17)
+acce tilt: 2.79
+gyro tilt: 102.34
+filtered tilt: 2.79
+
+time: 21.74
+acce: (-2.80, 0.31, 96.27)
+gyro: (86.61, -54.68, -174.18)
+filtered: (-2.80, 0.31, -174.18)
+acce tilt: 2.82
+gyro tilt: 102.43
+filtered tilt: 2.82
+
+time: 21.84
+acce: (-2.95, 0.23, 94.44)
+gyro: (86.59, -54.68, -174.18)
+filtered: (-2.95, 0.23, -174.18)
+acce tilt: 2.96
+gyro tilt: 102.41
+filtered tilt: 2.96
+
+time: 21.94
+acce: (-2.82, 0.20, 94.15)
+gyro: (86.56, -54.66, -174.19)
+filtered: (-2.82, 0.20, -174.19)
+acce tilt: 2.83
+gyro tilt: 102.37
+filtered tilt: 2.83
+
+time: 22.04
+acce: (-2.76, 0.24, 94.94)
+gyro: (86.53, -54.65, -174.19)
+filtered: (-2.76, 0.24, -174.19)
+acce tilt: 2.77
+gyro tilt: 102.34
+filtered tilt: 2.77
+
+time: 22.14
+acce: (-2.78, 0.25, 95.11)
+gyro: (86.53, -54.66, -174.20)
+filtered: (-2.78, 0.25, -174.20)
+acce tilt: 2.79
+gyro tilt: 102.35
+filtered tilt: 2.79
+
+time: 22.24
+acce: (-2.79, 0.19, 93.97)
+gyro: (86.53, -54.66, -174.20)
+filtered: (-2.79, 0.19, -174.20)
+acce tilt: 2.80
+gyro tilt: 102.35
+filtered tilt: 2.80
+
+time: 22.34
+acce: (-2.76, 0.24, 95.02)
+gyro: (86.51, -54.66, -174.20)
+filtered: (-2.76, 0.24, -174.20)
+acce tilt: 2.77
+gyro tilt: 102.33
+filtered tilt: 2.77
+
+time: 22.44
+acce: (-2.77, 0.27, 95.57)
+gyro: (86.51, -54.65, -174.20)
+filtered: (-2.77, 0.27, -174.20)
+acce tilt: 2.78
+gyro tilt: 102.32
+filtered tilt: 2.78
+
+time: 22.54
+acce: (-2.72, 0.28, 95.95)
+gyro: (86.50, -54.65, -174.21)
+filtered: (-2.72, 0.28, -174.21)
+acce tilt: 2.74
+gyro tilt: 102.31
+filtered tilt: 2.74
+
+time: 22.64
+acce: (-2.75, 0.28, 95.90)
+gyro: (86.49, -54.66, -174.21)
+filtered: (-2.75, 0.28, -174.21)
+acce tilt: 2.76
+gyro tilt: 102.32
+filtered tilt: 2.76
+
+time: 22.74
+acce: (-2.72, 0.32, 96.70)
+gyro: (86.49, -54.68, -174.21)
+filtered: (-2.72, 0.32, -174.21)
+acce tilt: 2.74
+gyro tilt: 102.32
+filtered tilt: 2.74
+
+time: 22.84
+acce: (-2.76, 0.17, 93.53)
+gyro: (86.48, -54.70, -174.21)
+filtered: (-2.76, 0.17, -174.21)
+acce tilt: 2.76
+gyro tilt: 102.33
+filtered tilt: 2.76
+
+time: 22.94
+acce: (-2.67, 0.22, 94.81)
+gyro: (86.48, -54.71, -174.21)
+filtered: (-2.67, 0.22, -174.21)
+acce tilt: 2.68
+gyro tilt: 102.33
+filtered tilt: 2.68
+
+time: 23.04
+acce: (-2.64, 0.28, 96.07)
+gyro: (86.48, -54.72, -174.21)
+filtered: (-2.64, 0.28, -174.21)
+acce tilt: 2.65
+gyro tilt: 102.34
+filtered tilt: 2.65
+
+time: 23.14
+acce: (-2.73, 0.20, 94.28)
+gyro: (86.48, -54.72, -174.20)
+filtered: (-2.73, 0.20, -174.20)
+acce tilt: 2.73
+gyro tilt: 102.34
+filtered tilt: 2.73
+
+time: 23.24
+acce: (6.85, -1.42, -78.25)
+gyro: (87.25, -55.32, -174.66)
+filtered: (6.85, -1.42, -174.66)
+acce tilt: 6.99
+gyro tilt: 103.30
+filtered tilt: 6.99
+
+time: 23.34
+acce: (-8.44, 2.82, 108.53)
+gyro: (94.99, -52.29, -175.56)
+filtered: (-8.44, 2.82, -175.56)
+acce tilt: 8.89
+gyro tilt: 108.43
+filtered tilt: 8.89
+
+time: 23.44
+acce: (-5.70, -2.25, 68.46)
+gyro: (111.26, -48.66, -170.59)
+filtered: (-5.70, -2.25, -170.59)
+acce tilt: 6.13
+gyro tilt: 121.44
+filtered tilt: 6.13
+
+time: 23.54
+acce: (-37.93, 0.88, 91.42)
+gyro: (132.96, -50.86, -169.29)
+filtered: (-37.93, 0.88, -169.29)
+acce tilt: 37.94
+gyro tilt: 142.35
+filtered tilt: 37.94
+
+time: 23.64
+acce: (-56.45, -2.03, 87.57)
+gyro: (151.14, -52.74, -169.43)
+filtered: (-56.45, -2.03, -169.43)
+acce tilt: 56.49
+gyro tilt: 160.08
+filtered tilt: 56.49
+
+time: 23.74
+acce: (-74.48, -1.36, 88.59)
+gyro: (164.28, -51.72, -168.77)
+filtered: (-74.48, -1.36, -168.77)
+acce tilt: 74.49
+gyro tilt: 172.23
+filtered tilt: 74.49
+
+time: 23.84
+acce: (-88.05, -1.65, 88.35)
+gyro: (175.35, -50.46, -167.91)
+filtered: (-88.05, -1.65, -167.91)
+acce tilt: 88.06
+gyro tilt: 182.47
+filtered tilt: 88.06
+
+time: 23.94
+acce: (-83.24, -1.56, 88.43)
+gyro: (177.41, -50.60, -167.18)
+filtered: (-83.24, -1.56, -167.18)
+acce tilt: 83.26
+gyro tilt: 184.49
+filtered tilt: 83.26
+
+time: 24.04
+acce: (-79.83, -8.21, 81.75)
+gyro: (171.54, -54.90, -162.95)
+filtered: (-79.83, -8.21, -162.95)
+acce tilt: 80.25
+gyro tilt: 180.11
+filtered tilt: 80.25
+
+time: 24.15
+acce: (-75.92, -11.30, 78.58)
+gyro: (153.56, -60.52, -165.48)
+filtered: (-75.92, -11.30, -165.48)
+acce tilt: 76.75
+gyro tilt: 165.06
+filtered tilt: 76.75
+
+time: 24.25
+acce: (-57.29, -4.39, 84.80)
+gyro: (132.55, -63.32, -168.28)
+filtered: (-57.29, -4.39, -168.28)
+acce tilt: 57.46
+gyro tilt: 146.90
+filtered tilt: 57.46
+
+time: 24.35
+acce: (-40.71, -4.39, 83.30)
+gyro: (107.87, -65.36, -169.82)
+filtered: (-40.71, -4.39, -169.82)
+acce tilt: 40.94
+gyro tilt: 126.12
+filtered tilt: 40.94
+
+time: 24.45
+acce: (-13.21, -5.00, 69.12)
+gyro: (85.89, -66.17, -170.97)
+filtered: (-13.21, -5.00, -170.97)
+acce tilt: 14.12
+gyro tilt: 108.42
+filtered tilt: 14.12
+
+time: 24.55
+acce: (5.34, -1.29, -76.41)
+gyro: (63.70, -65.74, -169.57)
+filtered: (5.34, -1.29, -169.57)
+acce tilt: 5.49
+gyro tilt: 91.54
+filtered tilt: 5.49
+
+time: 24.65
+acce: (25.13, -4.10, -80.44)
+gyro: (41.97, -64.40, -167.21)
+filtered: (25.13, -4.10, -167.21)
+acce tilt: 25.47
+gyro tilt: 76.87
+filtered tilt: 25.47
+
+time: 24.75
+acce: (48.07, -1.30, -88.26)
+gyro: (23.19, -63.01, -163.74)
+filtered: (48.07, -1.30, -163.74)
+acce tilt: 48.09
+gyro tilt: 67.14
+filtered tilt: 48.09
+
+time: 24.85
+acce: (65.16, 1.31, -91.44)
+gyro: (4.15, -63.45, -160.46)
+filtered: (65.16, 1.31, -160.46)
+acce tilt: 65.17
+gyro tilt: 63.58
+filtered tilt: 65.17
+
+time: 24.95
+acce: (77.97, 2.23, -92.28)
+gyro: (-7.53, -64.45, -159.25)
+filtered: (77.97, 2.23, -159.25)
+acce tilt: 78.00
+gyro tilt: 64.89
+filtered tilt: 78.00
+
+time: 25.05
+acce: (83.07, 2.72, -92.74)
+gyro: (-13.34, -64.85, -157.59)
+filtered: (83.07, 2.72, -157.59)
+acce tilt: 83.12
+gyro tilt: 66.21
+filtered tilt: 83.12
+
+time: 25.15
+acce: (85.45, 3.37, -93.38)
+gyro: (-15.80, -66.57, -157.71)
+filtered: (85.45, 3.37, -157.71)
+acce tilt: 85.52
+gyro tilt: 68.42
+filtered tilt: 85.52
+
+time: 25.25
+acce: (83.11, 3.12, -93.14)
+gyro: (-7.15, -63.27, -157.89)
+filtered: (83.11, 3.12, -157.89)
+acce tilt: 83.17
+gyro tilt: 63.67
+filtered tilt: 83.17
+
+time: 25.35
+acce: (75.78, 3.50, -93.60)
+gyro: (7.95, -59.08, -157.66)
+filtered: (75.78, 3.50, -157.66)
+acce tilt: 75.86
+gyro tilt: 59.61
+filtered tilt: 75.86
+
+time: 25.45
+acce: (63.85, 5.05, -95.60)
+gyro: (26.19, -56.72, -159.46)
+filtered: (63.85, 5.05, -159.46)
+acce tilt: 64.05
+gyro tilt: 62.48
+filtered tilt: 64.05
+
+time: 25.55
+acce: (44.27, 4.71, -96.71)
+gyro: (43.52, -57.98, -162.26)
+filtered: (44.27, 4.71, -162.26)
+acce tilt: 44.52
+gyro tilt: 72.50
+filtered tilt: 44.52
+
+time: 25.65
+acce: (26.83, 0.88, -91.95)
+gyro: (65.27, -61.16, -166.08)
+filtered: (26.83, 0.88, -166.08)
+acce tilt: 26.85
+gyro tilt: 89.45
+filtered tilt: 26.85
+
+time: 25.75
+acce: (3.41, -4.44, -37.52)
+gyro: (86.98, -64.72, -170.49)
+filtered: (3.41, -4.44, -170.49)
+acce tilt: 5.60
+gyro tilt: 108.42
+filtered tilt: 5.60
+
+time: 25.85
+acce: (-19.09, -7.30, 68.77)
+gyro: (105.93, -65.08, -173.00)
+filtered: (-19.09, -7.30, -173.00)
+acce tilt: 20.43
+gyro tilt: 124.32
+filtered tilt: 20.43
+
+time: 25.95
+acce: (-38.72, -5.70, 80.97)
+gyro: (121.66, -62.97, -173.68)
+filtered: (-38.72, -5.70, -173.68)
+acce tilt: 39.14
+gyro tilt: 136.99
+filtered tilt: 39.14
+
+time: 26.05
+acce: (-56.12, -4.80, 84.25)
+gyro: (136.32, -62.60, -173.34)
+filtered: (-56.12, -4.80, -173.34)
+acce tilt: 56.32
+gyro tilt: 150.00
+filtered tilt: 56.32
+
+time: 26.15
+acce: (-63.38, -3.93, 85.62)
+gyro: (153.92, -59.44, -170.94)
+filtered: (-63.38, -3.93, -170.94)
+acce tilt: 63.50
+gyro tilt: 165.00
+filtered tilt: 63.50
+
+time: 26.25
+acce: (-81.26, -5.20, 84.76)
+gyro: (169.27, -60.93, -171.72)
+filtered: (-81.26, -5.20, -171.72)
+acce tilt: 81.43
+gyro tilt: 179.91
+filtered tilt: 81.43
+
+time: 26.35
+acce: (-80.61, -3.32, 86.65)
+gyro: (176.43, -57.87, -170.95)
+filtered: (-80.61, -3.32, -170.95)
+acce tilt: 80.68
+gyro tilt: 185.67
+filtered tilt: 80.68
+
+time: 26.45
+acce: (-77.76, -4.42, 85.49)
+gyro: (168.80, -58.82, -171.73)
+filtered: (-77.76, -4.42, -171.73)
+acce tilt: 77.88
+gyro tilt: 178.75
+filtered tilt: 77.88
+
+time: 26.55
+acce: (-81.02, -7.42, 82.55)
+gyro: (148.13, -63.68, -171.95)
+filtered: (-81.02, -7.42, -171.95)
+acce tilt: 81.36
+gyro tilt: 161.23
+filtered tilt: 81.36
+
+time: 26.65
+acce: (-53.53, -1.54, 88.08)
+gyro: (112.32, -75.32, -171.29)
+filtered: (-53.53, -1.54, -171.29)
+acce tilt: 53.55
+gyro tilt: 135.23
+filtered tilt: 53.55
+
+time: 26.75
+acce: (-10.86, -8.03, 53.45)
+gyro: (80.20, -76.35, -168.48)
+filtered: (-10.86, -8.03, -168.48)
+acce tilt: 13.51
+gyro tilt: 110.73
+filtered tilt: 13.51
+
+time: 26.85
+acce: (23.65, -7.55, -71.87)
+gyro: (52.20, -76.33, -160.10)
+filtered: (23.65, -7.55, -160.10)
+acce tilt: 24.82
+gyro tilt: 92.47
+filtered tilt: 24.82
+
+time: 26.95
+acce: (45.12, -6.43, -81.01)
+gyro: (31.21, -75.54, -152.66)
+filtered: (45.12, -6.43, -152.66)
+acce tilt: 45.58
+gyro tilt: 81.73
+filtered tilt: 45.58
+
+time: 27.05
+acce: (59.58, -0.52, -89.39)
+gyro: (17.76, -75.27, -147.55)
+filtered: (59.58, -0.52, -147.55)
+acce tilt: 59.58
+gyro tilt: 77.33
+filtered tilt: 59.58
+
+time: 27.15
+acce: (72.17, 3.64, -93.82)
+gyro: (4.29, -77.43, -144.33)
+filtered: (72.17, 3.64, -144.33)
+acce tilt: 72.26
+gyro tilt: 77.54
+filtered tilt: 72.26
+
+time: 27.25
+acce: (85.01, 4.47, -94.48)
+gyro: (-9.51, -80.97, -142.59)
+filtered: (85.01, 4.47, -142.59)
+acce tilt: 85.12
+gyro tilt: 81.53
+filtered tilt: 85.12
+
+time: 27.35
+acce: (83.51, 3.26, -93.28)
+gyro: (-22.96, -85.56, -142.93)
+filtered: (83.51, 3.26, -142.93)
+acce tilt: 83.57
+gyro tilt: 88.58
+filtered tilt: 83.57
+
+time: 27.45
+acce: (74.65, 5.03, -95.19)
+gyro: (-33.07, -89.25, -143.30)
+filtered: (74.65, 5.03, -143.30)
+acce tilt: 74.81
+gyro tilt: 95.18
+filtered tilt: 74.81
+
+time: 27.55
+acce: (69.06, 7.28, -97.72)
+gyro: (-32.32, -87.74, -142.11)
+filtered: (69.06, 7.28, -142.11)
+acce tilt: 69.44
+gyro tilt: 93.50
+filtered tilt: 69.44
+
+time: 27.65
+acce: (76.07, 7.27, -97.42)
+gyro: (-15.66, -83.45, -138.08)
+filtered: (76.07, 7.27, -138.08)
+acce tilt: 76.42
+gyro tilt: 84.91
+filtered tilt: 76.42
+
+time: 27.75
+acce: (77.58, 6.04, -96.15)
+gyro: (21.50, -79.32, -143.86)
+filtered: (77.58, 6.04, -143.86)
+acce tilt: 77.82
+gyro tilt: 82.18
+filtered tilt: 77.82
+
+time: 27.85
+acce: (51.18, -2.62, -86.64)
+gyro: (56.95, -80.88, -152.70)
+filtered: (51.18, -2.62, -152.70)
+acce tilt: 51.25
+gyro tilt: 98.92
+filtered tilt: 51.25
+
+time: 27.95
+acce: (19.99, -0.15, -89.55)
+gyro: (81.99, -79.06, -157.29)
+filtered: (19.99, -0.15, -157.29)
+acce tilt: 19.99
+gyro tilt: 113.90
+filtered tilt: 19.99
+
+time: 28.06
+acce: (-20.16, 0.23, 90.66)
+gyro: (108.81, -79.84, -161.65)
+filtered: (-20.16, 0.23, -161.65)
+acce tilt: 20.16
+gyro tilt: 134.96
+filtered tilt: 20.16
+
+time: 28.16
+acce: (-45.62, -1.78, 87.51)
+gyro: (115.21, -80.70, -162.55)
+filtered: (-45.62, -1.78, -162.55)
+acce tilt: 45.66
+gyro tilt: 140.66
+filtered tilt: 45.66
+
+time: 28.26
+acce: (-36.52, -0.58, 89.03)
+gyro: (111.06, -82.52, -161.15)
+filtered: (-36.52, -0.58, -161.15)
+acce tilt: 36.53
+gyro tilt: 138.36
+filtered tilt: 36.53
+
+time: 28.36
+acce: (-30.72, -1.01, 88.02)
+gyro: (104.82, -84.85, -158.02)
+filtered: (-30.72, -1.01, -158.02)
+acce tilt: 30.73
+gyro tilt: 134.86
+filtered tilt: 30.73
+
+time: 28.46
+acce: (-20.63, -9.16, 65.69)
+gyro: (98.92, -88.17, -154.68)
+filtered: (-20.63, -9.16, -154.68)
+acce tilt: 22.57
+gyro tilt: 132.51
+filtered tilt: 22.57
+
+time: 28.56
+acce: (-20.12, -8.59, 66.54)
+gyro: (91.98, -89.97, -151.10)
+filtered: (-20.12, -8.59, -151.10)
+acce tilt: 21.88
+gyro tilt: 128.66
+filtered tilt: 21.88
+
+time: 28.66
+acce: (-5.82, -14.65, 21.85)
+gyro: (88.88, -89.65, -146.71)
+filtered: (-5.82, -14.65, -146.71)
+acce tilt: 15.76
+gyro tilt: 126.24
+filtered tilt: 15.76
+
+time: 28.76
+acce: (-7.51, -15.14, 26.59)
+gyro: (96.86, -88.34, -141.18)
+filtered: (-7.51, -15.14, -141.18)
+acce tilt: 16.90
+gyro tilt: 131.09
+filtered tilt: 16.90
+
+time: 28.86
+acce: (-18.82, -8.50, 65.38)
+gyro: (114.75, -85.42, -132.37)
+filtered: (-18.82, -8.50, -132.37)
+acce tilt: 20.65
+gyro tilt: 143.05
+filtered tilt: 20.65
+
+time: 28.96
+acce: (-36.33, -18.96, 61.26)
+gyro: (138.02, -85.94, -123.91)
+filtered: (-36.33, -18.96, -123.91)
+acce tilt: 40.98
+gyro tilt: 162.59
+filtered tilt: 40.98
+
+time: 29.06
+acce: (-40.36, -29.80, 52.49)
+gyro: (159.59, -79.03, -112.41)
+filtered: (-40.36, -29.80, -112.41)
+acce tilt: 50.17
+gyro tilt: 178.09
+filtered tilt: 50.17
+
+time: 29.16
+acce: (-49.90, -35.96, 52.49)
+gyro: (168.44, -71.97, -108.16)
+filtered: (-49.90, -35.96, -108.16)
+acce tilt: 61.51
+gyro tilt: 183.17
+filtered tilt: 61.51
+
+time: 29.26
+acce: (-57.52, -30.71, 58.81)
+gyro: (164.36, -59.11, -104.35)
+filtered: (-57.52, -30.71, -104.35)
+acce tilt: 65.20
+gyro tilt: 174.67
+filtered tilt: 65.20
+
+time: 29.36
+acce: (-52.17, -13.27, 73.80)
+gyro: (167.54, -44.61, -94.46)
+filtered: (-52.17, -13.27, -94.46)
+acce tilt: 53.83
+gyro tilt: 173.38
+filtered tilt: 53.83
+
+time: 29.46
+acce: (-57.12, -7.83, 80.78)
+gyro: (175.10, -37.90, -87.69)
+filtered: (-57.12, -7.83, -87.69)
+acce tilt: 57.65
+gyro tilt: 179.16
+filtered tilt: 57.65
+
+time: 29.56
+acce: (-51.97, -10.88, 76.52)
+gyro: (-179.51, -25.32, -74.55)
+filtered: (-51.97, -10.88, -74.55)
+acce tilt: 53.10
+gyro tilt: 181.29
+filtered tilt: 53.10
+
+time: 29.66
+acce: (-42.19, -42.04, 45.08)
+gyro: (-175.35, -19.96, -70.35)
+filtered: (-42.19, -42.04, -70.35)
+acce tilt: 59.56
+gyro tilt: 176.48
+filtered tilt: 59.56
+
+time: 29.76
+acce: (-41.05, -44.36, 43.21)
+gyro: (-177.45, -31.27, -76.97)
+filtered: (-41.05, -44.36, -76.97)
+acce tilt: 60.44
+gyro tilt: 180.18
+filtered tilt: 60.44
+
+time: 29.86
+acce: (-52.13, -13.76, 73.24)
+gyro: (-156.79, -90.56, -89.09)
+filtered: (-52.13, -13.76, -89.09)
+acce tilt: 53.92
+gyro tilt: 181.07
+filtered tilt: 53.92
+
+time: 29.96
+acce: (-76.59, 3.06, 93.14)
+gyro: (-143.34, -129.78, -80.39)
+filtered: (-76.59, 3.06, -80.39)
+acce tilt: 76.65
+gyro tilt: 193.36
+filtered tilt: 76.65
+
+time: 30.06
+acce: (-9.39, 14.80, 147.41)
+gyro: (-115.82, -143.20, -67.17)
+filtered: (-9.39, 14.80, -67.17)
+acce tilt: 17.53
+gyro tilt: 184.17
+filtered tilt: 17.53
+
+time: 30.16
+acce: (5.58, -3.20, -60.10)
+gyro: (-111.67, -136.43, -71.30)
+filtered: (5.58, -3.20, -71.30)
+acce tilt: 6.43
+gyro tilt: 176.31
+filtered tilt: 6.43
+
+time: 30.26
+acce: (-3.56, -11.64, 17.09)
+gyro: (-119.66, -122.22, -89.27)
+filtered: (-3.56, -11.64, -89.27)
+acce tilt: 12.17
+gyro tilt: 171.05
+filtered tilt: 12.17
+
+time: 30.36
+acce: (-14.28, -11.18, 51.84)
+gyro: (-157.50, -114.69, -106.23)
+filtered: (-14.28, -11.18, -106.23)
+acce tilt: 18.13
+gyro tilt: 194.83
+filtered tilt: 18.13
+
+time: 30.46
+acce: (-35.19, 3.10, 95.37)
+gyro: (154.88, -99.60, -123.97)
+filtered: (-35.19, 3.10, -123.97)
+acce tilt: 35.32
+gyro tilt: 184.14
+filtered tilt: 35.32
+
+time: 30.56
+acce: (-26.69, 12.11, 115.04)
+gyro: (112.68, -97.37, -142.29)
+filtered: (-26.69, 12.11, -142.29)
+acce tilt: 29.31
+gyro tilt: 148.92
+filtered tilt: 29.31
+
+time: 30.66
+acce: (-1.66, 22.08, 175.60)
+gyro: (80.94, -110.99, -162.56)
+filtered: (-1.66, 22.08, -162.56)
+acce tilt: 22.14
+gyro tilt: 137.36
+filtered tilt: 22.14
+
+time: 30.76
+acce: (17.96, 1.08, -93.51)
+gyro: (83.07, -118.75, -172.34)
+filtered: (17.96, 1.08, -172.34)
+acce tilt: 18.00
+gyro tilt: 144.92
+filtered tilt: 18.00
+
+time: 30.86
+acce: (10.68, -35.14, -17.84)
+gyro: (82.13, -132.24, -179.12)
+filtered: (10.68, -35.14, -179.12)
+acce tilt: 36.73
+gyro tilt: 155.67
+filtered tilt: 36.73
+
+time: 30.96
+acce: (3.62, -17.61, -11.79)
+gyro: (85.15, -135.68, 178.79)
+filtered: (3.62, -17.61, 178.79)
+acce tilt: 17.98
+gyro tilt: 160.18
+filtered tilt: 17.98
+
+time: 31.06
+acce: (-18.32, -16.04, 48.67)
+gyro: (85.31, -125.81, 178.87)
+filtered: (-18.32, -16.04, 178.87)
+acce tilt: 24.35
+gyro tilt: 152.01
+filtered tilt: 24.35
+
+time: 31.16
+acce: (-0.82, 0.73, 131.70)
+gyro: (86.42, -120.71, -179.71)
+filtered: (-0.82, 0.73, -179.71)
+acce tilt: 1.09
+gyro tilt: 148.45
+filtered tilt: 1.09
+
+time: 31.26
+acce: (-2.91, 0.24, 94.63)
+gyro: (86.47, -120.56, -179.68)
+filtered: (-2.91, 0.24, -179.68)
+acce tilt: 2.92
+gyro tilt: 148.36
+filtered tilt: 2.92
+
+time: 31.36
+acce: (-2.97, 0.19, 93.61)
+gyro: (86.47, -120.56, -179.67)
+filtered: (-2.97, 0.19, -179.67)
+acce tilt: 2.98
+gyro tilt: 148.36
+filtered tilt: 2.98
+
+time: 31.46
+acce: (-2.97, 0.23, 94.35)
+gyro: (86.47, -120.55, -179.66)
+filtered: (-2.97, 0.23, -179.66)
+acce tilt: 2.97
+gyro tilt: 148.36
+filtered tilt: 2.97
+
+time: 31.56
+acce: (-3.15, 0.28, 95.01)
+gyro: (86.47, -120.55, -179.66)
+filtered: (-3.15, 0.28, -179.66)
+acce tilt: 3.16
+gyro tilt: 148.36
+filtered tilt: 3.16
+
+time: 31.66
+acce: (-2.93, 0.15, 92.86)
+gyro: (86.48, -120.55, -179.67)
+filtered: (-2.93, 0.15, -179.67)
+acce tilt: 2.93
+gyro tilt: 148.36
+filtered tilt: 2.93
+
+time: 31.76
+acce: (-3.26, 0.25, 94.33)
+gyro: (86.49, -120.52, -179.67)
+filtered: (-3.26, 0.25, -179.67)
+acce tilt: 3.27
+gyro tilt: 148.34
+filtered tilt: 3.27
+
+time: 31.86
+acce: (-3.02, 0.20, 93.84)
+gyro: (86.50, -120.51, -179.67)
+filtered: (-3.02, 0.20, -179.67)
+acce tilt: 3.02
+gyro tilt: 148.34
+filtered tilt: 3.02
+
+time: 31.96
+acce: (-2.94, 0.27, 95.32)
+gyro: (86.50, -120.49, -179.67)
+filtered: (-2.94, 0.27, -179.67)
+acce tilt: 2.95
+gyro tilt: 148.32
+filtered tilt: 2.95
+
+time: 32.06
+acce: (-2.98, 0.31, 96.03)
+gyro: (86.50, -120.49, -179.67)
+filtered: (-2.98, 0.31, -179.67)
+acce tilt: 3.00
+gyro tilt: 148.33
+filtered tilt: 3.00
+
+time: 32.16
+acce: (-3.07, 0.19, 93.50)
+gyro: (86.50, -120.48, -179.66)
+filtered: (-3.07, 0.19, -179.66)
+acce tilt: 3.08
+gyro tilt: 148.32
+filtered tilt: 3.08
+
+time: 32.26
+acce: (-3.06, 0.23, 94.35)
+gyro: (86.51, -120.47, -179.66)
+filtered: (-3.06, 0.23, -179.66)
+acce tilt: 3.07
+gyro tilt: 148.31
+filtered tilt: 3.07
+
+time: 32.36
+acce: (-3.10, 0.30, 95.55)
+gyro: (86.51, -120.47, -179.66)
+filtered: (-3.10, 0.30, -179.66)
+acce tilt: 3.11
+gyro tilt: 148.32
+filtered tilt: 3.11
+
+time: 32.46
+acce: (-2.98, 0.30, 95.71)
+gyro: (86.52, -120.48, -179.66)
+filtered: (-2.98, 0.30, -179.66)
+acce tilt: 3.00
+gyro tilt: 148.33
+filtered tilt: 3.00
+
+time: 32.56
+acce: (-2.85, 0.32, 96.31)
+gyro: (86.53, -120.48, -179.66)
+filtered: (-2.85, 0.32, -179.66)
+acce tilt: 2.87
+gyro tilt: 148.33
+filtered tilt: 2.87
+
+time: 32.66
+acce: (-2.78, 0.33, 96.69)
+gyro: (86.52, -120.48, -179.65)
+filtered: (-2.78, 0.33, -179.65)
+acce tilt: 2.80
+gyro tilt: 148.33
+filtered tilt: 2.80
+
+time: 32.76
+acce: (-2.96, 0.27, 95.15)
+gyro: (86.53, -120.47, -179.64)
+filtered: (-2.96, 0.27, -179.64)
+acce tilt: 2.97
+gyro tilt: 148.33
+filtered tilt: 2.97
+
+time: 32.86
+acce: (-2.97, 0.28, 95.48)
+gyro: (86.53, -120.48, -179.64)
+filtered: (-2.97, 0.28, -179.64)
+acce tilt: 2.98
+gyro tilt: 148.33
+filtered tilt: 2.98
+
+time: 32.96
+acce: (-2.96, 0.29, 95.61)
+gyro: (86.54, -120.46, -179.64)
+filtered: (-2.96, 0.29, -179.64)
+acce tilt: 2.98
+gyro tilt: 148.32
+filtered tilt: 2.98
+
+time: 33.06
+acce: (-3.03, 0.29, 95.54)
+gyro: (86.54, -120.46, -179.63)
+filtered: (-3.03, 0.29, -179.63)
+acce tilt: 3.05
+gyro tilt: 148.33
+filtered tilt: 3.05
+
+time: 33.16
+acce: (-2.94, 0.34, 96.50)
+gyro: (86.55, -120.47, -179.63)
+filtered: (-2.94, 0.34, -179.63)
+acce tilt: 2.96
+gyro tilt: 148.33
+filtered tilt: 2.96
+
+time: 33.26
+acce: (-2.92, 0.33, 96.50)
+gyro: (86.55, -120.47, -179.62)
+filtered: (-2.92, 0.33, -179.62)
+acce tilt: 2.94
+gyro tilt: 148.33
+filtered tilt: 2.94
+
+time: 33.36
+acce: (-2.87, 0.32, 96.35)
+gyro: (86.55, -120.47, -179.62)
+filtered: (-2.87, 0.32, -179.62)
+acce tilt: 2.88
+gyro tilt: 148.34
+filtered tilt: 2.88
+
+time: 33.46
+acce: (-2.91, 0.33, 96.53)
+gyro: (86.55, -120.47, -179.62)
+filtered: (-2.91, 0.33, -179.62)
+acce tilt: 2.92
+gyro tilt: 148.34
+filtered tilt: 2.92
+
+time: 33.56
+acce: (-3.01, 0.30, 95.65)
+gyro: (86.56, -120.48, -179.62)
+filtered: (-3.01, 0.30, -179.62)
+acce tilt: 3.03
+gyro tilt: 148.35
+filtered tilt: 3.03
+
+time: 33.66
+acce: (-2.94, 0.35, 96.71)
+gyro: (86.56, -120.49, -179.62)
+filtered: (-2.94, 0.35, -179.62)
+acce tilt: 2.96
+gyro tilt: 148.36
+filtered tilt: 2.96
+
+time: 33.76
+acce: (-2.89, 0.31, 96.07)
+gyro: (86.57, -120.49, -179.61)
+filtered: (-2.89, 0.31, -179.61)
+acce tilt: 2.91
+gyro tilt: 148.36
+filtered tilt: 2.91
+
+time: 33.86
+acce: (-3.00, 0.29, 95.46)
+gyro: (86.58, -120.49, -179.61)
+filtered: (-3.00, 0.29, -179.61)
+acce tilt: 3.01
+gyro tilt: 148.37
+filtered tilt: 3.01
+
+time: 33.96
+acce: (-3.00, 0.27, 95.21)
+gyro: (86.58, -120.48, -179.61)
+filtered: (-3.00, 0.27, -179.61)
+acce tilt: 3.01
+gyro tilt: 148.37
+filtered tilt: 3.01
+
+time: 34.06
+acce: (-2.95, 0.34, 96.60)
+gyro: (86.59, -120.48, -179.61)
+filtered: (-2.95, 0.34, -179.61)
+acce tilt: 2.97
+gyro tilt: 148.37
+filtered tilt: 2.97
+
+time: 34.16
+acce: (-2.94, 0.30, 95.91)
+gyro: (86.59, -120.49, -179.61)
+filtered: (-2.94, 0.30, -179.61)
+acce tilt: 2.95
+gyro tilt: 148.37
+filtered tilt: 2.95
+
+time: 34.26
+acce: (-2.88, 0.30, 95.91)
+gyro: (86.59, -120.49, -179.61)
+filtered: (-2.88, 0.30, -179.61)
+acce tilt: 2.90
+gyro tilt: 148.38
+filtered tilt: 2.90
+
+time: 34.36
+acce: (-2.91, 0.34, 96.62)
+gyro: (86.60, -120.48, -179.60)
+filtered: (-2.91, 0.34, -179.60)
+acce tilt: 2.93
+gyro tilt: 148.37
+filtered tilt: 2.93
+
+time: 34.46
+acce: (-3.01, 0.34, 96.52)
+gyro: (86.60, -120.47, -179.60)
+filtered: (-3.01, 0.34, -179.60)
+acce tilt: 3.03
+gyro tilt: 148.36
+filtered tilt: 3.03
+
+time: 34.56
+acce: (-3.06, 0.29, 95.49)
+gyro: (86.59, -120.47, -179.60)
+filtered: (-3.06, 0.29, -179.60)
+acce tilt: 3.08
+gyro tilt: 148.36
+filtered tilt: 3.08
+
+time: 34.66
+acce: (-3.02, 0.36, 96.84)
+gyro: (86.60, -120.47, -179.60)
+filtered: (-3.02, 0.36, -179.60)
+acce tilt: 3.04
+gyro tilt: 148.37
+filtered tilt: 3.04
+
+time: 34.76
+acce: (-3.18, 0.34, 96.07)
+gyro: (86.60, -120.48, -179.60)
+filtered: (-3.18, 0.34, -179.60)
+acce tilt: 3.19
+gyro tilt: 148.37
+filtered tilt: 3.19
+
+time: 34.86
+acce: (-2.98, 0.32, 96.16)
+gyro: (86.60, -120.48, -179.59)
+filtered: (-2.98, 0.32, -179.59)
+acce tilt: 3.00
+gyro tilt: 148.38
+filtered tilt: 3.00
+
+time: 34.96
+acce: (-3.02, 0.23, 94.39)
+gyro: (86.60, -120.48, -179.59)
+filtered: (-3.02, 0.23, -179.59)
+acce tilt: 3.03
+gyro tilt: 148.38
+filtered tilt: 3.03
+
+time: 35.06
+acce: (-3.05, 0.34, 96.34)
+gyro: (86.60, -120.49, -179.59)
+filtered: (-3.05, 0.34, -179.59)
+acce tilt: 3.07
+gyro tilt: 148.38
+filtered tilt: 3.07
+
+time: 35.16
+acce: (-2.87, 0.35, 96.88)
+gyro: (86.60, -120.50, -179.59)
+filtered: (-2.87, 0.35, -179.59)
+acce tilt: 2.89
+gyro tilt: 148.39
+filtered tilt: 2.89
+
+time: 35.26
+acce: (-2.88, 0.32, 96.25)
+gyro: (86.60, -120.50, -179.58)
+filtered: (-2.88, 0.32, -179.58)
+acce tilt: 2.90
+gyro tilt: 148.39
+filtered tilt: 2.90
+
+time: 35.36
+acce: (-2.92, 0.37, 97.23)
+gyro: (86.60, -120.50, -179.58)
+filtered: (-2.92, 0.37, -179.58)
+acce tilt: 2.95
+gyro tilt: 148.39
+filtered tilt: 2.95
+
+time: 35.46
+acce: (-2.88, 0.39, 97.72)
+gyro: (86.60, -120.50, -179.58)
+filtered: (-2.88, 0.39, -179.58)
+acce tilt: 2.91
+gyro tilt: 148.39
+filtered tilt: 2.91
+
+time: 35.56
+acce: (-2.90, 0.39, 97.61)
+gyro: (86.60, -120.50, -179.58)
+filtered: (-2.90, 0.39, -179.58)
+acce tilt: 2.93
+gyro tilt: 148.39
+filtered tilt: 2.93
+
+time: 35.66
+acce: (-2.93, 0.34, 96.56)
+gyro: (86.60, -120.50, -179.57)
+filtered: (-2.93, 0.34, -179.57)
+acce tilt: 2.94
+gyro tilt: 148.39
+filtered tilt: 2.94
+
+time: 35.76
+acce: (-2.98, 0.26, 95.04)
+gyro: (86.60, -120.50, -179.57)
+filtered: (-2.98, 0.26, -179.57)
+acce tilt: 2.99
+gyro tilt: 148.39
+filtered tilt: 2.99
+
+time: 35.86
+acce: (-3.04, 0.38, 97.09)
+gyro: (86.61, -120.50, -179.58)
+filtered: (-3.04, 0.38, -179.58)
+acce tilt: 3.07
+gyro tilt: 148.39
+filtered tilt: 3.07
+
+time: 35.97
+acce: (-3.05, 0.33, 96.20)
+gyro: (86.61, -120.50, -179.58)
+filtered: (-3.05, 0.33, -179.58)
+acce tilt: 3.07
+gyro tilt: 148.39
+filtered tilt: 3.07
+
+time: 36.07
+acce: (-2.93, 0.34, 96.60)
+gyro: (86.61, -120.50, -179.58)
+filtered: (-2.93, 0.34, -179.58)
+acce tilt: 2.95
+gyro tilt: 148.39
+filtered tilt: 2.95
+
+time: 36.17
+acce: (-2.89, 0.28, 95.56)
+gyro: (86.61, -120.50, -179.58)
+filtered: (-2.89, 0.28, -179.58)
+acce tilt: 2.90
+gyro tilt: 148.39
+filtered tilt: 2.90
+
+time: 36.27
+acce: (-3.00, 0.28, 95.34)
+gyro: (86.61, -120.50, -179.58)
+filtered: (-3.00, 0.28, -179.58)
+acce tilt: 3.01
+gyro tilt: 148.39
+filtered tilt: 3.01
+
+time: 36.37
+acce: (-2.91, 0.34, 96.68)
+gyro: (86.61, -120.50, -179.58)
+filtered: (-2.91, 0.34, -179.58)
+acce tilt: 2.93
+gyro tilt: 148.40
+filtered tilt: 2.93
+
+time: 36.47
+acce: (-2.87, 0.31, 96.07)
+gyro: (86.62, -120.50, -179.58)
+filtered: (-2.87, 0.31, -179.58)
+acce tilt: 2.89
+gyro tilt: 148.40
+filtered tilt: 2.89
+
+time: 36.57
+acce: (-2.90, 0.33, 96.48)
+gyro: (86.62, -120.50, -179.58)
+filtered: (-2.90, 0.33, -179.58)
+acce tilt: 2.92
+gyro tilt: 148.41
+filtered tilt: 2.92
+
+time: 36.67
+acce: (-2.91, 0.26, 95.03)
+gyro: (86.62, -120.50, -179.58)
+filtered: (-2.91, 0.26, -179.58)
+acce tilt: 2.92
+gyro tilt: 148.41
+filtered tilt: 2.92
+
+time: 36.77
+acce: (-2.95, 0.27, 95.23)
+gyro: (86.62, -120.51, -179.58)
+filtered: (-2.95, 0.27, -179.58)
+acce tilt: 2.96
+gyro tilt: 148.41
+filtered tilt: 2.96
+
+time: 36.87
+acce: (-2.94, 0.27, 95.31)
+gyro: (86.62, -120.51, -179.57)
+filtered: (-2.94, 0.27, -179.57)
+acce tilt: 2.95
+gyro tilt: 148.42
+filtered tilt: 2.95
+
+time: 36.97
+acce: (-2.95, 0.30, 95.76)
+gyro: (86.63, -120.52, -179.57)
+filtered: (-2.95, 0.30, -179.57)
+acce tilt: 2.97
+gyro tilt: 148.42
+filtered tilt: 2.97
+
+time: 37.07
+acce: (-2.96, 0.35, 96.83)
+gyro: (86.64, -120.52, -179.57)
+filtered: (-2.96, 0.35, -179.57)
+acce tilt: 2.98
+gyro tilt: 148.43
+filtered tilt: 2.98
+
+time: 37.17
+acce: (-3.01, 0.36, 96.81)
+gyro: (86.65, -120.53, -179.56)
+filtered: (-3.01, 0.36, -179.56)
+acce tilt: 3.03
+gyro tilt: 148.44
+filtered tilt: 3.03
+
+time: 37.27
+acce: (-2.95, 0.25, 94.84)
+gyro: (86.65, -120.53, -179.56)
+filtered: (-2.95, 0.25, -179.56)
+acce tilt: 2.96
+gyro tilt: 148.44
+filtered tilt: 2.96
+
+time: 37.37
+acce: (-2.86, 0.23, 94.53)
+gyro: (86.65, -120.54, -179.56)
+filtered: (-2.86, 0.23, -179.56)
+acce tilt: 2.87
+gyro tilt: 148.45
+filtered tilt: 2.87
+
+time: 37.47
+acce: (-2.82, 0.26, 95.33)
+gyro: (86.65, -120.53, -179.56)
+filtered: (-2.82, 0.26, -179.56)
+acce tilt: 2.83
+gyro tilt: 148.45
+filtered tilt: 2.83
+
+time: 37.57
+acce: (-2.91, 0.37, 97.31)
+gyro: (86.66, -120.53, -179.56)
+filtered: (-2.91, 0.37, -179.56)
+acce tilt: 2.94
+gyro tilt: 148.45
+filtered tilt: 2.94
+
+time: 37.67
+acce: (-2.90, 0.33, 96.47)
+gyro: (86.66, -120.53, -179.55)
+filtered: (-2.90, 0.33, -179.55)
+acce tilt: 2.91
+gyro tilt: 148.45
+filtered tilt: 2.91
+
+time: 37.77
+acce: (-2.89, 0.31, 96.08)
+gyro: (86.67, -120.54, -179.55)
+filtered: (-2.89, 0.31, -179.55)
+acce tilt: 2.91
+gyro tilt: 148.46
+filtered tilt: 2.91
+
+time: 37.87
+acce: (-2.95, 0.40, 97.78)
+gyro: (86.67, -120.54, -179.55)
+filtered: (-2.95, 0.40, -179.55)
+acce tilt: 2.98
+gyro tilt: 148.47
+filtered tilt: 2.98
+
+time: 37.97
+acce: (-2.99, 0.31, 95.89)
+gyro: (86.68, -120.54, -179.55)
+filtered: (-2.99, 0.31, -179.55)
+acce tilt: 3.01
+gyro tilt: 148.47
+filtered tilt: 3.01
+
+time: 38.07
+acce: (-2.88, 0.33, 96.60)
+gyro: (86.68, -120.54, -179.54)
+filtered: (-2.88, 0.33, -179.54)
+acce tilt: 2.90
+gyro tilt: 148.47
+filtered tilt: 2.90
+
+time: 38.17
+acce: (-2.89, 0.26, 95.14)
+gyro: (86.67, -120.55, -179.54)
+filtered: (-2.89, 0.26, -179.54)
+acce tilt: 2.91
+gyro tilt: 148.47
+filtered tilt: 2.91
+
+time: 38.27
+acce: (-2.91, 0.26, 95.09)
+gyro: (86.68, -120.55, -179.54)
+filtered: (-2.91, 0.26, -179.54)
+acce tilt: 2.92
+gyro tilt: 148.48
+filtered tilt: 2.92
+
+time: 38.37
+acce: (-2.93, 0.27, 95.22)
+gyro: (86.67, -120.55, -179.53)
+filtered: (-2.93, 0.27, -179.53)
+acce tilt: 2.94
+gyro tilt: 148.47
+filtered tilt: 2.94
+
+time: 38.47
+acce: (-2.93, 0.32, 96.15)
+gyro: (86.68, -120.54, -179.53)
+filtered: (-2.93, 0.32, -179.53)
+acce tilt: 2.95
+gyro tilt: 148.47
+filtered tilt: 2.95
+
+time: 38.57
+acce: (-2.90, 0.30, 95.87)
+gyro: (86.68, -120.54, -179.53)
+filtered: (-2.90, 0.30, -179.53)
+acce tilt: 2.91
+gyro tilt: 148.47
+filtered tilt: 2.91
+
+time: 38.67
+acce: (-3.00, 0.27, 95.22)
+gyro: (86.68, -120.54, -179.53)
+filtered: (-3.00, 0.27, -179.53)
+acce tilt: 3.01
+gyro tilt: 148.47
+filtered tilt: 3.01
+
+time: 38.77
+acce: (-2.97, 0.31, 96.00)
+gyro: (86.68, -120.55, -179.53)
+filtered: (-2.97, 0.31, -179.53)
+acce tilt: 2.99
+gyro tilt: 148.48
+filtered tilt: 2.99
+
+time: 38.87
+acce: (-2.96, 0.28, 95.41)
+gyro: (86.68, -120.55, -179.53)
+filtered: (-2.96, 0.28, -179.53)
+acce tilt: 2.98
+gyro tilt: 148.48
+filtered tilt: 2.98
+
+time: 38.97
+acce: (-2.94, 0.27, 95.31)
+gyro: (86.69, -120.56, -179.53)
+filtered: (-2.94, 0.27, -179.53)
+acce tilt: 2.95
+gyro tilt: 148.49
+filtered tilt: 2.95
+
+time: 39.07
+acce: (-2.92, 0.24, 94.77)
+gyro: (86.69, -120.57, -179.52)
+filtered: (-2.92, 0.24, -179.52)
+acce tilt: 2.93
+gyro tilt: 148.50
+filtered tilt: 2.93
+
+time: 39.17
+acce: (-2.86, 0.33, 96.61)
+gyro: (86.70, -120.56, -179.52)
+filtered: (-2.86, 0.33, -179.52)
+acce tilt: 2.88
+gyro tilt: 148.50
+filtered tilt: 2.88
+
