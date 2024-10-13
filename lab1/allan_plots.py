@@ -2,46 +2,42 @@ import numpy as np
 import matplotlib.pyplot as plt
 import re
 
+import re
+
 def parse_sensor_data(file_path):
-    """Parses the sensor data from the given file."""
-    time = []
-    accel_data = {'roll': [], 'pitch': [], 'yaw': [], 'tilt': []}
-    gyro_data = {'roll': [], 'pitch': [], 'yaw': [], 'tilt': []}
-    filtered_tilt = []
+    """Parses the simplified sensor data from the given file."""
+    accel_data = {'X': [], 'Y': [], 'Z': []}
+    gyro_data = {'X': [], 'Y': [], 'Z': []}
 
     with open(file_path, 'r') as file:
         content = file.read()
 
     # Regular expressions to match the lines
-    time_pattern = r'time: ([\d\.]+)'
-    accel_pattern = r'acce: \(([\d\.\-]+), ([\d\.\-]+), ([\d\.\-]+)\)'
-    gyro_pattern = r'gyro: \(([\d\.\-]+), ([\d\.\-]+), ([\d\.\-]+)\)'
-    accel_tilt_pattern = r'acce tilt: ([\d\.\-]+)'
-    gyro_tilt_pattern = r'gyro tilt: ([\d\.\-]+)'
-    filtered_tilt_pattern = r'filtered tilt: ([\d\.\-]+)'
+    accel_pattern = r'Accel:\s+X\s=\s([-\d\.]+)\s,\sY\s=\s([-\d\.]+)\s,\sZ\s=\s([-\d\.]+)'
+    gyro_pattern = r'Gyro:\s+X\s=\s([-\d\.]+)\s,\sY\s=\s([-\d\.]+)\s,\sZ\s=\s([-\d\.]+)'
 
     # Find all matches
-    times = re.findall(time_pattern, content)
     accels = re.findall(accel_pattern, content)
     gyros = re.findall(gyro_pattern, content)
-    accel_tilts = re.findall(accel_tilt_pattern, content)
-    gyro_tilts = re.findall(gyro_tilt_pattern, content)
-    filtered_tilts = re.findall(filtered_tilt_pattern, content)
 
     # Parse and store data
-    time = [float(t) for t in times]
-    for i in range(len(accels)):
-        accel_data['roll'].append(float(accels[i][0]))
-        accel_data['pitch'].append(float(accels[i][1]))
-        accel_data['yaw'].append(float(accels[i][2]))
-        gyro_data['roll'].append(float(gyros[i][0]))
-        gyro_data['pitch'].append(float(gyros[i][1]))
-        gyro_data['yaw'].append(float(gyros[i][2]))
-        accel_data['tilt'].append(float(accel_tilts[i]))
-        gyro_data['tilt'].append(float(gyro_tilts[i]))
-        filtered_tilt.append(float(filtered_tilts[i]))
+    for accel in accels:
+        accel_data['X'].append(float(accel[0]))
+        accel_data['Y'].append(float(accel[1]))
+        accel_data['Z'].append(float(accel[2]))
 
-    return time, accel_data, gyro_data, filtered_tilt
+    for gyro in gyros:
+        gyro_data['X'].append(float(gyro[0]))
+        gyro_data['Y'].append(float(gyro[1]))
+        gyro_data['Z'].append(float(gyro[2]))
+
+    return accel_data, gyro_data
+
+# Example usage:
+# file_path = 'sensor_data.txt'
+# accel_data, gyro_data = parse_sensor_data(file_path)
+
+
 
 def allan_deviation(data, max_tau=None):
     """Computes Allan deviation for the given data."""
@@ -49,7 +45,7 @@ def allan_deviation(data, max_tau=None):
     if max_tau is None:
         max_tau = N // 2  # Set a maximum tau (half the data length by default)
 
-    tau_values = np.logspace(0, np.log10(max_tau), num=100, dtype=int)
+    tau_values = np.logspace(0, np.log10(max_tau), num=1000, dtype=int)
     tau_values = np.unique(tau_values)  # Remove duplicates
 
     allan_devs = []
@@ -57,11 +53,18 @@ def allan_deviation(data, max_tau=None):
     for tau in tau_values:
         if tau >= len(data):  # Skip tau if it's larger than the data size
             break
+        
+        # Calculate the number of clusters K for this tau
+        K = (N // tau) - 1
+        
+        if K < 2:  # Not enough data for this tau, skip it
+            continue
+
         # Calculate the cluster averages for each interval of length tau
         cluster_avgs = np.array([np.mean(data[i:i+tau]) for i in range(0, N - tau, tau)])
         
-        # Compute the Allan variance
-        allan_var = 0.5 * np.mean(np.diff(cluster_avgs) ** 2)
+        # Compute the Allan variance using the formula from the image
+        allan_var = (1 / (2 * (K - 1))) * np.sum((cluster_avgs[1:] - cluster_avgs[:-1]) ** 2)
         
         # Allan deviation is the square root of the variance
         allan_devs.append(np.sqrt(allan_var))
@@ -91,31 +94,27 @@ def plot_single_allan_deviation(tau_values, allan_devs, label, title):
 
 def main():
     # Load data from the file
-    file_path = '/Users/patriciastrutz/Library/CloudStorage/OneDrive-Stanford/Stanford/24-25a Fall/EE292S/ee292s/lab1/30min_stationary_xy_26C_indoors.txt'  # Path to your sensor data file
-    time, accel_data, gyro_data, filtered_tilt = parse_sensor_data(file_path)
+    file_path = '/Users/patriciastrutz/Library/CloudStorage/OneDrive-Stanford/Stanford/24-25a Fall/EE292S/ee292s/lab1/raw_data_for_allen/30min_raw_data_stationary_24C_indoors_small_room.txt'  # Path to your sensor data file
+    accel_data, gyro_data = parse_sensor_data(file_path)
 
     # Process accelerometer data (roll, pitch, yaw)
-    accel_labels = ['Accel Roll', 'Accel Pitch', 'Accel Yaw']
+    accel_labels = ['Accel X', 'Accel Y', 'Accel Z']
     accel_tau_values = []
     accel_allan_devs = []
-    for axis in ['roll', 'pitch', 'yaw']:
+    for axis in ['X', 'Y', 'Z']:
         tau, allan_dev = allan_deviation(accel_data[axis])
         accel_tau_values.append(tau)
         accel_allan_devs.append(allan_dev)
 
     # Process gyroscope data (roll, pitch, yaw)
-    gyro_labels = ['Gyro Roll', 'Gyro Pitch', 'Gyro Yaw']
+    gyro_labels = ['Gyro X', 'Gyro Y', 'Gyro Z']
     gyro_tau_values = []
     gyro_allan_devs = []
-    for axis in ['roll', 'pitch', 'yaw']:
+    for axis in ['X', 'Y', 'Z']:
         tau, allan_dev = allan_deviation(gyro_data[axis])
         gyro_tau_values.append(tau)
         gyro_allan_devs.append(allan_dev)
 
-
-    # Process tilt data (acce tilt, gyro tilt, filtered tilt)
-    tilt_labels = ['Accel Tilt', 'Gyro Tilt', 'Filtered Tilt']
-    tilt_data_list = [accel_data['tilt'], gyro_data['tilt'], filtered_tilt]
 
     # Plot accelerometer Allan deviations
     plot_allan_deviation(accel_tau_values, accel_allan_devs, accel_labels, 'Allan Deviation - Accelerometer')
@@ -123,10 +122,6 @@ def main():
     # Plot gyroscope Allan deviations
     plot_allan_deviation(gyro_tau_values, gyro_allan_devs, gyro_labels, 'Allan Deviation - Gyroscope')
     
-    # Plot Allan deviations for each tilt component separately
-    for tilt_data, label in zip(tilt_data_list, tilt_labels):
-        tau_values, allan_devs = allan_deviation(tilt_data)
-        plot_single_allan_deviation(tau_values, allan_devs, label, f'Allan Deviation - {label}')
 
     plt.show()
 
