@@ -94,7 +94,7 @@ def plot_single_allan_deviation(tau_values, allan_devs, label, title):
 
 def main():
     # Load data from the file
-    file_path = '/Users/patriciastrutz/Library/CloudStorage/OneDrive-Stanford/Stanford/24-25a Fall/EE292S/ee292s/lab1/raw_data_for_allen/30min_raw_data_stationary_24C_indoors_small_room.txt'  # Path to your sensor data file
+    file_path = '/Users/patriciastrutz/Library/CloudStorage/OneDrive-Stanford/Stanford/24-25a Fall/EE292S/ee292s/lab1/raw_data_for_allan/30min_raw_data_stationary_24C_indoors_small_room.txt'  # Path to your sensor data file
     accel_data, gyro_data = parse_sensor_data(file_path)
 
     # Process accelerometer data (roll, pitch, yaw)
