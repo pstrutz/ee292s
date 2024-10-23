@@ -51,11 +51,11 @@ p_estimates = []
 v_estimates = []
 a_estimates = []
 kalman_gains = []
-dt = 0.1
+dt = 0.01
 GEE_TO_METERS = 9.81  # 1 gee = 9.81 m/s²
 meas_var = GEE_TO_METERS**2*(0.01)**2 # from allan deviation average at sample size = 1
 
-raw_measurements_accel, raw_measurements_gyro = extract_values_from_file("/Users/egeturan/Documents/Sensing/SmartphoneSensors292S/ee292s/lab1/gee_fix")
+raw_measurements_accel, raw_measurements_gyro = extract_values_from_file("/Users/egeturan/Documents/Sensing/SmartphoneSensors292S/ee292s/lab1/oct23/6ft_medium_round_straight_c")
 raw_accel = 9.81*np.array(raw_measurements_accel)
 raw_gyro = np.array(raw_measurements_gyro)
 
@@ -73,16 +73,16 @@ kf.x = np.zeros(3)
         
 # Initial covariance matrix (high uncertainty)
 kf.P = np.eye(3)
-kf.P *= 1e-2
+kf.P *= 1e-4
         
 # Process noise covariance matrix (assuming very stable process)
 # kf.Q = np.array([[0., 0., 0.],
 #                  [0., 0., 0.],
 #                  [0., 0., 0.]])
 # kf.Q = Q_discrete_white_noise(dim=3, dt=0.1, var=0.1)
-kf.Q = np.eye(3)*1
+kf.Q = np.eye(3)*1e1
 
-meas_var = 1
+meas_var = 1e2
 # Measurement noise (variance in the accel measurements)
 kf.R = np.array([[meas_var]])
 
@@ -99,7 +99,7 @@ for t in range(num_samples):
     kf.update(z)
 
     # Get the estimated state (position, velocity)
-    kf.x[1] = 0 if (np.abs(kf.x[1]) < 0.1) else kf.x[1]
+    # kf.x[1] = kf.x[1]*0.95 if (np.abs(kf.x[0]) < 0.01) else kf.x[1]
     estimated_position, estimated_velocity, estimated_accel = kf.x
     p_estimates.append(estimated_position)
     v_estimates.append(estimated_velocity)
@@ -116,21 +116,21 @@ fig1.suptitle('Kalman Filter Estimates')
 
 # Position
 p_estimates = np.array(p_estimates)
-axs1[0].plot(taxis/10, p_estimates, label='KF position estimate')
+axs1[0].plot(taxis*dt, p_estimates, label='KF position estimate')
 axs1[0].set_ylabel('Position (m)')
 axs1[0].grid()
 axs1[0].legend()
 
 # Velocity
 v_estimates = np.array(v_estimates)
-axs1[1].plot(taxis/10, v_estimates, label='KF velocity estimate')
+axs1[1].plot(taxis*dt, v_estimates, label='KF velocity estimate')
 axs1[1].set_ylabel('Velocity (m/s)')
 axs1[1].grid()
 axs1[1].legend()
 
 # Accel
 a_estimates = np.array(a_estimates)
-axs1[2].plot(taxis/10, a_estimates, label='KF accel estimate')
+axs1[2].plot(taxis*dt, a_estimates, label='KF accel estimate')
 axs1[2].set_ylabel('Acceleration (m/s^2)')
 axs1[2].grid()
 axs1[2].legend()
