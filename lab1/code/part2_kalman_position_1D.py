@@ -55,7 +55,7 @@ dt = 0.01
 GEE_TO_METERS = 9.81  # 1 gee = 9.81 m/s²
 meas_var = GEE_TO_METERS**2*(0.01)**2 # from allan deviation average at sample size = 1
 
-raw_measurements_accel, raw_measurements_gyro = extract_values_from_file("/Users/egeturan/Documents/Sensing/SmartphoneSensors292S/ee292s/lab1/oct23/6ft_medium_round_straight")
+raw_measurements_accel, raw_measurements_gyro = extract_values_from_file("/Users/egeturan/Documents/Sensing/SmartphoneSensors292S/ee292s/lab1/oct23/1ft_rounds_fast_straight")
 raw_accel = 9.81*np.array(raw_measurements_accel)
 raw_gyro = np.array(raw_measurements_gyro)
 
@@ -75,12 +75,8 @@ kf.x = np.zeros(3)
 kf.P = np.eye(3)
 kf.P *= 1e-2
         
-# Process noise covariance matrix (assuming very stable process)
-# kf.Q = np.array([[0., 0., 0.],
-#                  [0., 0., 0.],
-#                  [0., 0., 0.]])
-# kf.Q = Q_discrete_white_noise(dim=3, dt=0.1, var=0.1)
-kf.Q = np.eye(3)*1e3
+# Process noise covariance matrix (assuming a good amount of process noise so we have just enough smoothing)
+kf.Q = np.eye(3)
 
 meas_var = 1e2
 # Measurement noise (variance in the accel measurements)
@@ -92,21 +88,21 @@ taxis = np.array(range(num_samples))
 # Example loop for Kalman filter using accelerometer data
 for t in range(num_samples):
     z = raw_accel[t][0]  # Use the X-axis acceleration in world frame
-    z = 0 if (np.abs(z) < 0.1) else z 
+    z = 0 if (np.abs(z) < 0.1) else z # minimum-clamping of acceleration
 
     # Predict step (use accelerometer data)
     kf.predict()
     kf.update(z)
 
     # Get the estimated state (position, velocity)
-    # kf.x[1] = kf.x[1]*0.99 if (np.abs(kf.x[1]) < 0.1) else kf.x[1]
+    kf.x[1] = kf.x[1]*0.9 if (np.abs(kf.x[1]) < 0.05) else kf.x[1] # prevent end drift by damping of velocity
     estimated_position, estimated_velocity, estimated_accel = kf.x
     p_estimates.append(estimated_position)
     v_estimates.append(estimated_velocity)
     a_estimates.append(estimated_accel)
     kalman_gains.append(kf.K)
 
-    #print(f"Estimated Position: {estimated_position}, Estimated Velocity: {estimated_velocity}")
+    # for testing: print(f"Estimated Position: {estimated_position}, Estimated Velocity: {estimated_velocity}")
 
 
 
@@ -130,6 +126,7 @@ axs1[1].set_ylabel('Velocity (m/s)')
 axs1[1].grid()
 axs1[1].legend()
 
+x_accel = [row[0] for row in raw_accel]
 # Accel
 a_estimates = np.array(a_estimates)
 axs1[2].plot(taxis, a_estimates, label='KF accel estimate')
@@ -154,18 +151,23 @@ kalman_gains_array = np.array(kalman_gains)
 # Gain for Position
 axs2[0].plot(taxis, kalman_gains_array[:, 0, :], label='Kalman Gain Position')
 axs2[0].set_ylabel('Position Gain')
+axs2[0].set_xlabel('Time (s)')
 axs2[0].grid()
 
 # Gain for Velocity
 axs2[1].plot(taxis, kalman_gains_array[:, 1, :], label='Kalman Gain Velocity')
 axs2[1].set_ylabel('Velocity Gain')
+axs2[1].set_xlabel('Time (s)')
 axs2[1].grid()
 
 # Gain for Accel
 axs2[2].plot(taxis, kalman_gains_array[:, 2, :], label='Kalman Gain Accel')
 axs2[2].set_ylabel('Accel Gain')
+axs2[2].set_xlabel('Time (s)')
 axs2[2].grid()
 
+
+# Only for /Users/egeturan/Documents/Sensing/SmartphoneSensors292S/ee292s/lab1/oct23/6ft_medium_round_straight
 fig4 = plt.figure()
 # Define the parameters
 x_start = 2.1
@@ -185,7 +187,6 @@ plt.plot(taxis, y, label=f'ideal constant velocity path')
 plt.plot(taxis, p_estimates, label=f'kalman position estimate')
 plt.plot(taxis, abs(y-p_estimates), label=f'error', c='red')
 
-
 # Add labels and title
 plt.xlabel('time (s)')
 plt.ylabel('position (m)')
@@ -196,7 +197,25 @@ plt.legend()
 
 # Show the plot
 plt.grid(True)
-plt.show()
+# plt.show()
+
+# Create a figure and two subplots
+fig, axs = plt.subplots(1, 2, figsize=(12, 5))  # 1 row, 2 columns
+
+# Plot for Kalman filter acceleration estimates
+axs[0].plot(taxis, a_estimates, label='KF accel estimate')
+axs[0].set_title('Kalman Filter Acceleration Estimate')
+axs[0].set_ylabel('Acceleration (m/s^2)')
+axs[0].set_xlabel('Time (s)')
+axs[0].grid()
+axs[0].legend()
+
+# Plot for raw x acceleration
+axs[1].plot(taxis, x_accel, label='raw x accel', color='orange')
+axs[1].set_title('Raw X Acceleration')
+axs[1].set_xlabel('Time (s)')
+axs[1].grid()
+axs[1].legend()
 
 
 plt.tight_layout(rect=[0, 0, 1, 0.96])  # Adjust layout and leave space for the title
