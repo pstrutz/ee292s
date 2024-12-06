@@ -63,7 +63,8 @@ kf = KalmanFilter(dim_x=3, dim_z=1)  # 2 state variables (position, velocity), 1
 # State transition matrix (position and velocity update)
 kf.F = np.array([[1, dt, 0.5*dt**2], 
                 [0, 1, dt],
-                [0, 0, 1]])
+     
+               [0, 0, 1]])
       
 # Measurement function (we are measuring only acceleration)
 kf.H = np.array([[0, 0, 1]])
@@ -72,18 +73,19 @@ kf.H = np.array([[0, 0, 1]])
 kf.x = np.zeros(3)
         
 # Initial covariance matrix (high uncertainty)
-kf.P = np.eye(3)
-kf.P *= 1e-2
+kf.P = np.eye(3)*1e-2
+
         
 # Process noise covariance matrix (assuming very stable process)
 # kf.Q = np.array([[0., 0., 0.],
 #                  [0., 0., 0.],
 #                  [0., 0., 0.]])
 # kf.Q = Q_discrete_white_noise(dim=3, dt=0.1, var=0.1)
-kf.Q = np.eye(3)*1e3
+kf.Q = np.eye(3)*0.1
 
-meas_var = 1e2
+
 # Measurement noise (variance in the accel measurements)
+meas_var = 1e2
 kf.R = np.array([[meas_var]])
 
 num_samples = raw_accel.shape[0]
