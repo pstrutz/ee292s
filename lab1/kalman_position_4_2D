@@ -1,0 +1,173 @@
+import sys
+import math as m
+import matplotlib.pyplot as plt
+import numpy as np
+from filterpy.kalman import KalmanFilter
+from filterpy.common import Q_discrete_white_noise
+from scipy.spatial.transform import Rotation as R
+
+# Read sensor values from text file
+def extract_values_from_file(file_path):
+    a_values = []
+    g_values = []
+    
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+    
+    for line in lines:
+        if line.startswith("a:"):
+            a_value = [float(x) for x in line.split(": (")[1].strip(")\n").split(",")]
+            a_values.append(a_value)
+        if line.startswith("g:"):
+            g_value = [float(x) for x in line.split(": (")[1].strip(")\n").split(",")]
+            g_values.append(g_value)
+    
+    return a_values, g_values
+
+# Constants and initializations
+p_estimates_x, p_estimates_y = [], []
+v_estimates_x, v_estimates_y = [], []
+a_estimates_x, a_estimates_y = [], []
+kalman_gains_x, kalman_gains_y = [], []
+dt = 0.01
+GEE_TO_METERS = 9.81
+meas_var = GEE_TO_METERS**2 * (0.01)**2
+
+# Load sensor data
+raw_measurements_accel, raw_measurements_gyro = extract_values_from_file("/Users/egeturan/Documents/Sensing/SmartphoneSensors292S/ee292s/lab1/oct23/6ft_medium_round_straight")
+raw_accel = 9.81 * np.array(raw_measurements_accel)
+
+# Kalman Filter setup for 2D
+kf = KalmanFilter(dim_x=6, dim_z=2)
+kf.F = np.array([
+    [1, dt, 0.5*dt**2, 0, 0, 0],
+    [0, 1, dt, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0],
+    [0, 0, 0, 1, dt, 0.5*dt**2],
+    [0, 0, 0, 0, 1, dt],
+    [0, 0, 0, 0, 0, 1]
+])
+kf.H = np.array([
+    [0, 0, 1, 0, 0, 0],
+    [0, 0, 0, 0, 0, 1]
+])
+kf.x = np.zeros(6)
+kf.P = np.eye(6) * 1e-2
+kf.Q = np.eye(6) * 1e3
+kf.R = np.eye(2) * meas_var
+
+num_samples = raw_accel.shape[0]
+taxis = np.array(range(num_samples)) * dt
+
+# Kalman filter loop
+for t in range(num_samples):
+    z_x, z_y = raw_accel[t, 0], raw_accel[t, 1]
+    z_x = 0 if abs(z_x) < 0.1 else z_x
+    z_y = 0 if abs(z_y) < 0.1 else z_y*5
+    
+    # Predict and update
+    kf.predict()
+    kf.update([z_x, z_y])
+
+    # Append estimated states
+    est_pos_x, est_vel_x, est_accel_x, est_pos_y, est_vel_y, est_accel_y = kf.x
+    p_estimates_x.append(est_pos_x)
+    v_estimates_x.append(est_vel_x)
+    a_estimates_x.append(est_accel_x)
+    p_estimates_y.append(est_pos_y)
+    v_estimates_y.append(est_vel_y)
+    a_estimates_y.append(est_accel_y)
+    kalman_gains_x.append(kf.K[:, 0])
+    kalman_gains_y.append(kf.K[:, 1])
+
+# Convert estimates to arrays for plotting
+p_estimates_x, p_estimates_y = np.array(p_estimates_x), np.array(p_estimates_y)
+v_estimates_x, v_estimates_y = np.array(v_estimates_x), np.array(v_estimates_y)
+a_estimates_x, a_estimates_y = np.array(a_estimates_x), np.array(a_estimates_y)
+kalman_gains_x, kalman_gains_y = np.array(kalman_gains_x), np.array(kalman_gains_y)
+
+# ... (rest of the code remains the same)
+
+# Plotting
+fig, axs = plt.subplots(3, 2, figsize=(12, 12))
+fig.suptitle('Kalman Filter Estimates for 2D Movement')
+
+# Position
+axs[0, 0].plot(taxis, p_estimates_x, label='KF position x')
+axs[0, 0].set_ylabel('Position X (m)')
+axs[0, 0].grid()
+axs[0, 0].legend()
+axs[0, 1].plot(taxis, p_estimates_y, label='KF position y')
+axs[0, 1].set_ylabel('Position Y (m)')
+axs[0, 1].grid()
+axs[0, 1].legend()
+
+# Velocity
+axs[1, 0].plot(taxis, v_estimates_x, label='KF velocity x')
+axs[1, 0].set_ylabel('Velocity X (m/s)')
+axs[1, 0].grid()
+axs[1, 0].legend()
+axs[1, 1].plot(taxis, v_estimates_y, label='KF velocity y')
+axs[1, 1].set_ylabel('Velocity Y (m/s)')
+axs[1, 1].grid()
+axs[1, 1].legend()
+
+# Acceleration
+axs[2, 0].plot(taxis, a_estimates_x, label='KF accel x')
+axs[2, 0].set_ylabel('Acceleration X (m/s^2)')
+axs[2, 0].grid()
+axs[2, 0].legend()
+axs[2, 1].plot(taxis, a_estimates_y, label='KF accel y')
+axs[2, 1].set_ylabel('Acceleration Y (m/s^2)')
+axs[2, 1].grid()
+axs[2, 1].legend()
+
+# Show raw acceleration data
+plt.figure()
+plt.plot(taxis, raw_accel[:, :2], label=['raw accel x', 'raw accel y'])
+plt.xlabel('time (s)')
+plt.ylabel('acceleration (m/s^2)')
+plt.legend()
+plt.grid(True)
+
+# Calculate error between the initial and final positions
+initial_position = np.array([p_estimates_x[0], p_estimates_y[0]])
+final_position = np.array([p_estimates_x[-1], p_estimates_y[-1]])
+error_distance = np.linalg.norm(final_position - initial_position)
+
+from matplotlib.collections import LineCollection
+import matplotlib.cm as cm
+import matplotlib.colors as mcolors
+
+# Create the segments for the path with respect to time
+points = np.array([p_estimates_x, p_estimates_y]).T.reshape(-1, 1, 2)
+segments = np.concatenate([points[:-1], points[1:]], axis=1)
+
+# Define a colormap that will represent the progression of time
+norm = mcolors.Normalize(vmin=0, vmax=len(taxis))
+lc = LineCollection(segments, cmap='viridis', norm=norm)
+lc.set_array(np.arange(len(taxis)))  # Array representing time progression
+lc.set_linewidth(2)
+
+# 2D trajectory plot for estimated position with color-coded time
+fig, ax = plt.subplots()
+ax.add_collection(lc)
+plt.colorbar(lc, ax=ax, label='Time Progression (s*10^-2)')
+
+# Plot start and end points
+ax.scatter(initial_position[0], initial_position[1], color='green', label='Start Position')
+ax.scatter(final_position[0], final_position[1], color='red', label='End Position')
+
+# Annotate the error with an arrow from the start to the end position
+plt.annotate(f'Error: {error_distance:.2f} m', 
+             xy=final_position, 
+             xytext=initial_position,
+             arrowprops=dict(facecolor='red', arrowstyle='->'))
+
+# Labels and grid
+ax.set_xlabel('Position X (m)')
+ax.set_ylabel('Position Y (m)')
+ax.set_title('2D Trajectory of Estimated Position')
+ax.grid(True)
+ax.legend()
+plt.show()

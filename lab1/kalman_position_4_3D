@@ -1,0 +1,122 @@
+import sys
+import math as m
+import matplotlib.pyplot as plt
+import numpy as np
+from filterpy.kalman import KalmanFilter
+from filterpy.common import Q_discrete_white_noise
+from scipy.spatial.transform import Rotation as R
+import matplotlib.colors as mcolors
+from mpl_toolkits.mplot3d import Axes3D
+
+# Read sensor values from text file
+def extract_values_from_file(file_path):
+    a_values = []
+    g_values = []
+    
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+    
+    for line in lines:
+        if line.startswith("a:"):
+            a_value = [
+                float(line.split(": (")[1].split(",")[0]),
+                float(line.split(": (")[1].split(",")[1]),
+                float(line.split(": (")[1].split(",")[2].split(")")[0])
+            ]
+            a_values.append(a_value)
+        elif line.startswith("g:"):
+            g_value = [
+                float(line.split(": (")[1].split(",")[0]),
+                float(line.split(": (")[1].split(",")[1]),
+                float(line.split(": (")[1].split(",")[2].split(")")[0])
+            ]
+            g_values.append(g_value)
+    
+    return a_values, g_values
+
+# Load raw measurements
+dt = 0.01
+raw_measurements_accel, raw_measurements_gyro = extract_values_from_file("/Users/egeturan/Documents/Sensing/SmartphoneSensors292S/ee292s/lab1/oct23/6ft_medium_round_straight")
+raw_accel = 9.81 * np.array(raw_measurements_accel)
+raw_gyro = np.array(raw_measurements_gyro)
+num_samples = raw_accel.shape[0]
+taxis = np.arange(num_samples) * dt
+
+# Initialize Kalman Filter for 3D (x, y, z)
+kf = KalmanFilter(dim_x=9, dim_z=3)
+kf.F = np.block([
+    [np.eye(3), dt * np.eye(3), 0.5 * dt**2 * np.eye(3)],
+    [np.zeros((3, 3)), np.eye(3), dt * np.eye(3)],
+    [np.zeros((3, 3)), np.zeros((3, 3)), np.eye(3)]
+])
+kf.H = np.block([np.zeros((3, 3)), np.zeros((3, 3)), np.eye(3)])
+kf.x = np.zeros(9)
+kf.P = np.eye(9) * 1e-2
+kf.Q = np.eye(9) * 1e3
+meas_var = 1e2
+kf.R = np.eye(3) * meas_var
+
+# Arrays to store Kalman filter estimates
+p_estimates_x, p_estimates_y, p_estimates_z = [], [], []
+v_estimates_x, v_estimates_y, v_estimates_z = [], [], []
+a_estimates_x, a_estimates_y, a_estimates_z = [], [], []
+kalman_gains = []
+
+# Run Kalman Filter
+for t in range(num_samples):
+    z = raw_accel[t]
+    z = np.where(np.abs(z) < 0.1, 0, z)  # Threshold small accelerations to zero
+
+    # Predict and update
+    kf.predict()
+    kf.update(z)
+
+    # Extract estimates
+    estimated_position, estimated_velocity, estimated_accel = kf.x[:3], kf.x[3:6], kf.x[6:9]
+    p_estimates_x.append(estimated_position[0])
+    p_estimates_y.append(estimated_position[1])
+    p_estimates_z.append(estimated_position[2])
+
+# Convert lists to arrays
+p_estimates_x = np.array(p_estimates_x)
+p_estimates_y = np.array(p_estimates_y)
+p_estimates_z = np.array(p_estimates_z)
+
+# Calculate final error from start to end point
+initial_position = np.array([p_estimates_x[0], p_estimates_y[0], p_estimates_z[0]])
+final_position = np.array([p_estimates_x[-1], p_estimates_y[-1], p_estimates_z[-1]])
+error_distance = np.linalg.norm(final_position - initial_position)
+
+# Create 3D plot for estimated path with color-coded time
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+# Normalize color mapping for time progression
+norm = mcolors.Normalize(vmin=0, vmax=num_samples)
+cmap = plt.get_cmap('viridis')
+
+# Plot each line segment with color based on time
+for i in range(num_samples - 1):
+    ax.plot(
+        [p_estimates_x[i], p_estimates_x[i+1]],
+        [p_estimates_y[i], p_estimates_y[i+1]],
+        [p_estimates_z[i], p_estimates_z[i+1]],
+        color=cmap(norm(i))
+    )
+
+# Plot start and end points
+ax.scatter(*initial_position, color='green', label='Start Position')
+ax.scatter(*final_position, color='red', label='End Position')
+
+# Annotate the error
+ax.text(final_position[0], final_position[1], final_position[2],
+        f'Error: {error_distance:.2f} m', color='red')
+
+# Labels and grid
+ax.set_xlabel('Position X (m)')
+ax.set_ylabel('Position Y (m)')
+ax.set_zlabel('Position Z (m)')
+ax.set_title('3D Trajectory of Estimated Position with Time Color Gradient')
+plt.colorbar(plt.cm.ScalarMappable(norm=norm, cmap=cmap), ax=ax, label='Time Progression (s*10^-2)')
+ax.legend()
+plt.show()
